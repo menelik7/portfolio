@@ -164,20 +164,32 @@ i {
 /* ---------------------------------------------- */
 
 #slide2{
-	background-color: #f5f5f5;
 	color: #333333;
 	height: 100vh;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 200px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+hr {
+	width: 100px;
+	margin: 0 auto;
+}
 /* ---------------------------------------------- /*
  * Porfolio
 /* ---------------------------------------------- */
 
 #slide3{
-	
+	background-color: #f5f5f5;
 	color: #fff;
 	height: 100vh;
 	padding: 170px 0 0 0;
@@ -420,12 +432,12 @@ i {
 	}
 
 	#intro {
-		font-size: 1.5em;
+		font-size: 1.8em;
 		margin-top: 0;
 	}
 
 	#job-title {
-		font-size: 1.2em;
+		font-size: 1.3em;
 	}
 
 	#message {
