@@ -1,4 +1,6 @@
 $(document).ready(function() {
+
+  // Allows for one-page smooth scrolling between sections
   $('a[href*=\\#]').each(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
     && location.hostname == this.hostname
@@ -14,6 +16,17 @@ $(document).ready(function() {
           return false;
         });
       }
+    }
+  });
+
+  // displays and hides "header" depending on the scroll location (hidden @ Home)
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 600) {
+      $('header').removeClass('hidden');
+      $('.scroll-up').fadeIn();
+    } else {
+      $('.scroll-up').fadeOut();
+      $('header').addClass('hidden');
     }
   });
 });
