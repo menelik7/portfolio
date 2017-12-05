@@ -24,6 +24,7 @@ p {
 	border-bottom: 1 px solid ;
 	height: 80px;
 	position: fixed;
+	z-index:100;
 	border-bottom: 1px solid #f5f5f5;
 }
 
