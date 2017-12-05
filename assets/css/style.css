@@ -58,7 +58,7 @@ p {
 /* ---------------------------------------------- */
 
 #slide1{
-	background:url('../img/slide1.jpg') no-repeat center center fixed; 
+	background:url('../img/slide1.jpg') no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -465,7 +465,3 @@ i {
 
 
 }
-
-
-
-/*#868e96 #464a4e*/
