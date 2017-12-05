@@ -21,7 +21,7 @@ $(document).ready(function() {
 
   // displays and hides "header" depending on the scroll location (hidden @ Home)
   $(window).scroll(function() {
-    if ($(this).scrollTop() > 600) {
+    if ($(this).scrollTop() > 400) {
       $('header').removeClass('hidden');
       $('.scroll-up').fadeIn();
     } else {
