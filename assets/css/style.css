@@ -418,9 +418,9 @@ i {
 		margin: 0;
 		background-size: cover;
 	}
-	
+
 	#intro {
-		font-size: 2em;
+		font-size: 1.9em;
 		margin-top: 0;
 	}
 
@@ -430,7 +430,6 @@ i {
 
 	#message {
 		margin-top: 200px;
-		margin-bottom: -100px;
 		font-size: .7em;
 	}
 
