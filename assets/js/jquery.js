@@ -10,10 +10,16 @@ $(document).ready(function() {
       if ($target) {
         var targetOffset = $target.offset().top;
         $(this).click(function() {
-          $("#nav li a").removeClass("active");
+          $("#navbar li a").removeClass("active");
           $(this).addClass('active');
           $('html, body').animate({scrollTop: targetOffset}, 1000);
           return false;
+        });
+
+        $(".row").mouseenter(function(){
+          var id = $(this).attr('id');
+          $("#navbar li a").removeClass('active');
+          $("[href=\\#"+id+"]").addClass('active');
         });
       }
     }

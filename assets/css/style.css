@@ -10,13 +10,19 @@ body{
 	font-family: 'Raleway', sans-serif;
 }
 
-p {
-	color: #010440;
-	padding: 20px;
+.container-fluid {
+	padding: 0;
 }
 
 .row {
 	height: 100%;
+	overflow: hidden;
+}
+
+p {
+	color: #010440;
+	padding: 20px;
+	text-align: center;
 }
 
 /* ---------------------------------------------- /*
@@ -24,7 +30,7 @@ p {
 /* ---------------------------------------------- */
 
 #header {
-	width: 100%;
+	width: 100vw;
 	background: #fff;
 	border-bottom: 1 px solid ;
 	height: 80px;
@@ -34,7 +40,6 @@ p {
 }
 
 #logo1 {
-	border-radius: 20px;
 	color: #FF530D;
 	font-family: 'Princess Sofia', cursive;
 	font-size: 1em;
@@ -42,7 +47,7 @@ p {
 	margin-right: 20px;
 }
 
-#logo, #navbar { height: 100%; padding: 0 50px }
+#logo, #navbar { height: 100%; padding: 0 100px }
 #logo { padding-top: 5px; display: flex; justify-content: start; align-items: center }
 #navbar { display: flex; justify-content: flex-end; align-items: center }
 #logo a { color: #010440; text-decoration: none; font-size: 30px }
@@ -52,8 +57,8 @@ ul { list-style: none }
 li{ margin-top: 9px; float: left; padding-left: 21px }
 
 #navbar li a { color: #010440; font-size: 16px; text-decoration: none}
-#nav li a.active { color: #FF530D; opacity:1}
-#nav li a:hover { color: #FF530D; opacity:1; }
+#navbar li a.active { color: #FF530D; opacity:1}
+#navbar li a:hover { color: #FF530D; opacity:1; }
 
 
 /* ---------------------------------------------- /*
@@ -61,13 +66,12 @@ li{ margin-top: 9px; float: left; padding-left: 21px }
 /* ---------------------------------------------- */
 
 #slide1{
-	background:url('../img/slide1.jpg') no-repeat center center fixed; 
+	background: url("../img/slide1.jpg") no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	color: #f5f5f5;
-	height: 100vh;
 	margin: 0;
 	background-size: cover;
 }
@@ -168,10 +172,8 @@ li{ margin-top: 9px; float: left; padding-left: 21px }
 
 #slide2{
 	color: #010440;
-	height: 100vh;
 	margin: 0 auto;
-	padding: 130px 0;
-	overflow: hidden;
+	padding: 130px 60px;
 }
 
 #about-me {
@@ -188,12 +190,13 @@ h2 {
 	letter-spacing: 5px;
 }
 
-#story, #focus { min-height: 350px; font-size: 18px; padding-top: 40px }
+#story, #focus { min-height: 350px; font-size: 18px; padding-top: 20px }
 #story {
 	border-right: 1px solid #f5f5f5;
 }
 
-#story-logo {
+#story-logo,
+#focus-logo {
 	text-align: center;
 }
 
@@ -203,8 +206,8 @@ h2 {
 }
 
 hr {
-	width: 100px;
-	margin: 0 auto;
+	width: 200px;
+	margin: 20px auto;
 }
 
 /* ---------------------------------------------- /*
@@ -212,10 +215,10 @@ hr {
 /* ---------------------------------------------- */
 
 #slide3{
+	height: 100vh;
 	background-color: #f5f5f5;
 	color: #fff;
-	height: 100vh;
-	padding: 170px 0 0 0;
+	padding: 200px 60px;
 	background-size: cover;
 }
 
@@ -224,10 +227,11 @@ hr {
 /* ---------------------------------------------- */
 
 #slide4{
-	background-color: #fff;
-	color: #333333;
 	height: 100vh;
-	padding: 200px 0;
+	background-color: #f5f5f5;
+	color: #fff;
+	padding: 200px 60px;
+	background-size: cover;
 }
 
 /* ---------------------------------------------- /*
@@ -235,11 +239,10 @@ hr {
 /* ---------------------------------------------- */
 
 #slide5{
-	
 	height: 100vh;
-	margin: 0 auto;
-	padding: 250px 0;
+	background-color: #f5f5f5;
 	color: #fff;
+	padding: 200px 60px;
 	background-size: cover;
 }
 
@@ -295,8 +298,8 @@ hr {
 	li{ margin-top: 9px; float: left; padding-left: 21px }
 
 	#navbar li a { color: #010440; font-size: 16px; text-decoration: none}
-	#nav li a.active { color: #FF530D; opacity:1}
-	#nav li a:hover { color: #FF530D; opacity:1; }
+	#navbar li a.active { color: #FF530D; opacity:1}
+	#navbar li a:hover { color: #FF530D; opacity:1; }
 
 
 	/* ---------------------------------------------- /*
@@ -311,7 +314,6 @@ hr {
 		-o-background-size: cover;
 		background-size: cover;
 		color: #f5f5f5;
-		height: 100vh;
 		margin: 0;
 		background-size: cover;
 	}
@@ -341,23 +343,53 @@ hr {
 	/* ---------------------------------------------- */
 
 	#slide2{
-		background-color: #f5f5f5;
+		background-color: #fff;
 		color: #333333;
-		height: 100vh;
 		margin: 0 auto;
-		overflow: hidden;
-		padding: 200px 0;
+		padding: 80px 0;
+	}
+	
+	#about-me {
+		text-align: center;
+		margin-bottom: 20px;
+		
 	}
 
+	h2 {
+		display: block;
+		font-size: 30px;
+		font-weight: 800;
+		font-family: 'Raleway', sans-serif;
+		letter-spacing: 5px;
+	}
+
+	#story, #focus { min-height: 350px; font-size: 18px; padding-top: 40px }
+	#story {
+		border-right: 1px solid #f5f5f5;
+	}
+
+	#story-logo,
+	#focus-logo {
+		text-align: center;
+	}
+
+	.material-icons {
+		color: #FF530D;
+		font-size: 40px;
+	}
+
+	hr {
+		width: 100px;
+		margin: 0 auto;
+	}
 	/* ---------------------------------------------- /*
 	 * Porfolio
 	/* ---------------------------------------------- */
 
 	#slide3{
-		
+		background-color: #fff;
 		color: #fff;
-		height: 100vh;
-		padding: 170px 0 0 0;
+		padding: 80px 0;
 		background-size: cover;
 	}
 
@@ -368,8 +400,7 @@ hr {
 	#slide4{
 		background-color: #fff;
 		color: #333333;
-		height: 100vh;
-		padding: 200px 0;
+		padding: 80px 0;
 	}
 
 	/* ---------------------------------------------- /*
@@ -377,10 +408,9 @@ hr {
 	/* ---------------------------------------------- */
 
 	#slide5{
-		
-		height: 100vh;
+		background-color: #fff;
 		margin: 0 auto;
-		padding: 250px 0;
+		padding: 80px 0;
 		color: #fff;
 		background-size: cover;
 	}
@@ -404,10 +434,9 @@ hr {
 		width: 100%;
 		background: #fff;
 		border-bottom: 1 px solid ;
-		height: 60px;
+		height: 130px;
 		position: fixed;
 		z-index:100;
-		border-bottom: 1px solid #f5f5f5;
 	}
 
 	#logo1 {
@@ -419,9 +448,9 @@ hr {
 		margin-right: 20px;
 	}
 
-	#logo, #navbar { height: 100%; padding: 0 }
-	#logo { width: 100%; padding-top: 5px; display: flex; justify-content: center; align-items: center }
-	#navbar { width: 100%; display: flex; justify-content: center; align-items: center; background: #fff }
+	#logo, #navbar { height: 50%; padding: 0; display: flex; justify-content: center; align-items: center }
+	#logo { width: 100%; padding-top: 5px }
+	#navbar { padding-bottom: 10px; width: 100%; background: #fff; border-bottom: 1px solid #f5f5f5 }
 	#logo a { color: #010440; text-decoration: none; font-size: 30px }
 
 	ul { list-style: none; padding: 0 }
@@ -430,8 +459,8 @@ hr {
 	li{ margin-top: 9px; float: left; padding-left: 21px }
 
 	#navbar li a { color: #010440; font-size: 16px; text-decoration: none}
-	#nav li a.active { color: #FF530D; opacity:1}
-	#nav li a:hover { color: #FF530D; opacity:1; }
+	#navbar li a.active { color: #FF530D; opacity:1}
+	#navbar li a:hover { color: #FF530D; opacity:1; }
 
 
 	/* ---------------------------------------------- /*
@@ -470,12 +499,44 @@ hr {
 	/* ---------------------------------------------- */
 
 	#slide2{
-		background-color: #f5f5f5;
+		background-color: #fff;
 		color: #333333;
-		height: 100vh;
 		margin: 0 auto;
-		overflow: hidden;
-		padding: 200px 0;
+		padding: 150px 0;
+	}
+	
+	#about-me {
+		text-align: center;
+		margin-bottom: 20px;
+		
+	}
+
+	h2 {
+		display: block;
+		font-size: 30px;
+		font-weight: 800;
+		font-family: 'Raleway', sans-serif;
+		letter-spacing: 5px;
+	}
+
+	#story, #focus { min-height: 350px; font-size: 18px; padding-top: 40px }
+	#story {
+		border-right: 1px solid #f5f5f5;
+	}
+
+	#story-logo,
+	#focus-logo {
+		text-align: center;
+	}
+
+	.material-icons {
+		color: #FF530D;
+		font-size: 40px;
+	}
+
+	hr {
+		width: 100px;
+		margin: 0 auto;
 	}
 
 	/* ---------------------------------------------- /*
@@ -483,10 +544,9 @@ hr {
 	/* ---------------------------------------------- */
 
 	#slide3{
-		
+		background-color: #fff;
 		color: #fff;
-		height: 100vh;
-		padding: 170px 0 0 0;
+		padding: 150px 0;
 		background-size: cover;
 	}
 
@@ -497,8 +557,7 @@ hr {
 	#slide4{
 		background-color: #fff;
 		color: #333333;
-		height: 100vh;
-		padding: 200px 0;
+		padding: 150px 0;
 	}
 
 	/* ---------------------------------------------- /*
@@ -506,10 +565,9 @@ hr {
 	/* ---------------------------------------------- */
 
 	#slide5{
-		
-		height: 100vh;
+		background-color: #fff;
 		margin: 0 auto;
-		padding: 250px 0;
+		padding: 150px 0;
 		color: #fff;
 		background-size: cover;
 	}
