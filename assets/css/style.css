@@ -10,13 +10,13 @@ body{
 	font-family: 'Raleway', sans-serif;
 }
 
-.container-fluid {
+.container {
 	padding: 0;
 }
 
 .row {
+	padding: 0 -15px;
 	height: 100%;
-	overflow: hidden;
 }
 
 p {
@@ -42,13 +42,12 @@ p {
 #logo1 {
 	color: #FF530D;
 	font-family: 'Princess Sofia', cursive;
-	font-size: 1em;
 	text-align: center;
 	margin-right: 20px;
 }
 
 #logo, #navbar { height: 100%; padding: 0 100px }
-#logo { padding-top: 5px; display: flex; justify-content: start; align-items: center }
+#logo { padding-top: 5px; display: flex; justify-content: start; align-items: center; font-size: 1.2em}
 #navbar { display: flex; justify-content: flex-end; align-items: center }
 #logo a { color: #010440; text-decoration: none; font-size: 30px }
 
@@ -56,7 +55,7 @@ ul { list-style: none }
 
 li{ margin-top: 9px; float: left; padding-left: 21px }
 
-#navbar li a { color: #010440; font-size: 16px; text-decoration: none}
+#navbar li a { color: #010440; font-size: 18px; text-decoration: none}
 #navbar li a.active { color: #FF530D; opacity:1}
 #navbar li a:hover { color: #FF530D; opacity:1; }
 
@@ -72,8 +71,6 @@ li{ margin-top: 9px; float: left; padding-left: 21px }
 	-o-background-size: cover;
 	background-size: cover;
 	color: #f5f5f5;
-	margin: 0;
-	background-size: cover;
 }
 
 #overlay {
@@ -190,13 +187,14 @@ h2 {
 	letter-spacing: 5px;
 }
 
-#story, #focus { min-height: 350px; font-size: 18px; padding-top: 20px }
+#story, #focus { min-height: 450px; font-size: 18px; padding-top: 40px }
 #story {
 	border-right: 1px solid #f5f5f5;
 }
 
 #story-logo,
 #focus-logo {
+	height: 100px;
 	text-align: center;
 }
 
@@ -264,7 +262,20 @@ hr {
 
 /* Small devices (landscape phones, less than 768px)*/
 @media (max-width: 767px) {
-		
+	
+	/* ---------------------------------------------- /*
+	 * Global
+	/* ---------------------------------------------- */
+
+	.container {
+		padding: 0;
+	}
+
+	.row {
+		overflow: hidden;
+		height: 100%;
+	}
+
 	/* ---------------------------------------------- /*
 	 * Header
 	/* ---------------------------------------------- */
@@ -425,6 +436,19 @@ hr {
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) {
+	
+	/* ---------------------------------------------- /*
+	 * Global
+	/* ---------------------------------------------- */
+
+	.container {
+		padding: 0;
+	}
+
+	.row {
+		height: 100%;
+		overflow: hidden;
+	}
 
 	/* ---------------------------------------------- /*
 	 * Header
