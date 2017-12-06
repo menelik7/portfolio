@@ -294,7 +294,7 @@ hr {
 		font-family: 'Princess Sofia', cursive;
 		font-size: 1em;
 		text-align: center;
-		margin-right: 20px;
+		margin-right: 10px;
 	}
 
 	#logo, #navbar { height: 100% }
@@ -474,8 +474,9 @@ hr {
 	#logo { width: 100%; padding-top: 5px }
 	#navbar { padding-bottom: 10px; width: 100%; background: #fff; border-bottom: 1px solid #f5f5f5 }
 	#logo a { color: #010440; text-decoration: none; font-size: 30px }
-
-	ul { list-style: none; padding: 0 }
+	
+	#name { margin-right: -17px }
+	ul { list-style: none; padding: 0; margin-right: -13px }
 	li:first-child { padding: 0 }
 
 	li{ margin-top: 9px; float: left; padding-left: 21px }
@@ -514,6 +515,10 @@ hr {
 	#message {
 		margin-top: 100px;
 		font-size: .7em;
+	}
+	
+	#intro-scroll {
+		margin-bottom: 50px;
 	}
 
 	/* ---------------------------------------------- /*
