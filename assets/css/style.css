@@ -10,10 +10,6 @@ body{
 	font-family: 'Raleway', sans-serif;
 }
 
-.container {
-	padding: 0;
-}
-
 .row {
 	padding: 0 -15px;
 	height: 100%;
@@ -44,6 +40,7 @@ p {
 	font-family: 'Princess Sofia', cursive;
 	text-align: center;
 	margin-right: 20px;
+	font-weight: bold;
 }
 
 #logo, #navbar { height: 100%; padding: 0 100px }
@@ -188,19 +185,20 @@ h2 {
 }
 
 #story, #focus { min-height: 450px; font-size: 18px; padding-top: 40px }
+
 #story {
 	border-right: 1px solid #f5f5f5;
 }
 
 #story-logo,
 #focus-logo {
-	height: 100px;
+	height: 120px;
 	text-align: center;
 }
 
-.material-icons {
+.material-icons, .fa-address-card-o, .fa-file-code-o {
 	color: #FF530D;
-	font-size: 40px;
+	font-size: 60px;
 }
 
 hr {
@@ -267,12 +265,12 @@ hr {
 	 * Global
 	/* ---------------------------------------------- */
 
-	.container {
+	.container-fluid {
 		padding: 0;
 	}
 
 	.row {
-		overflow: hidden;
+		padding: 0 -15px;
 		height: 100%;
 	}
 
@@ -441,13 +439,13 @@ hr {
 	 * Global
 	/* ---------------------------------------------- */
 
-	.container {
+	.container-fluid {
 		padding: 0;
 	}
 
 	.row {
+		padding: 0 -15px;
 		height: 100%;
-		overflow: hidden;
 	}
 
 	/* ---------------------------------------------- /*
