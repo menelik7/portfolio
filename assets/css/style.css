@@ -57,7 +57,7 @@ li{ margin-top: 9px; float: left; padding-left: 21px }
 /* ---------------------------------------------- */
 
 #slide1 {
-	background: url("../img/slide1.jpg") no-repeat center center fixed; 
+	background: url("../img/slide1.jpg") no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -260,9 +260,6 @@ hr {
 	 * Global
 	/* ---------------------------------------------- */
 	
-	 {
-	}
-
 
 	/* ---------------------------------------------- /*
 	 * Header
@@ -414,6 +411,9 @@ hr {
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) {
 	
+	/* ---------------------------------------------- /*
+	 * Global
+	/* ---------------------------------------------- */
 
 	/* ---------------------------------------------- /*
 	 * Header
