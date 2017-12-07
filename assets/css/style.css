@@ -38,9 +38,9 @@ p {
 	font-weight: bold;
 }
 
-#logo, #navbar { height: 100%; padding: 0 100px }
-#logo { padding-top: 5px; display: flex; justify-content: start; align-items: center; font-size: 1.2em}
-#navbar { display: flex; justify-content: flex-end; align-items: center }
+#logo, #navbar { height: 100% }
+#logo { padding-top: 5px; padding-left: 100px; display: flex; justify-content: start; align-items: center; font-size: 1.2em}
+#navbar { padding-right: 100px; display: flex; justify-content: flex-end; align-items: center }
 #logo a { color: #010440; text-decoration: none; font-size: 30px }
 
 ul { list-style: none }
@@ -191,7 +191,7 @@ h2 {
 	text-align: center;
 }
 
-.material-icons, .fa-address-card-o, .fa-file-code-o {
+.fa-address-card-o, .fa-file-code-o {
 	color: #FF530D;
 	font-size: 60px;
 }
@@ -206,12 +206,41 @@ hr {
 /* ---------------------------------------------- */
 
 #slide3{
-	height: 100vh;
-	background-color: #f5f5f5;
-	color: #fff;
-	padding: 200px 60px;
+	color: #010440;
+	padding: 130px 20px 20px 20px;
 	background-size: cover;
 }
+
+#business_center {
+	vertical-align: middle;
+	font-size: 60px;
+	margin-left: 20px;
+	color: #FF530D;
+}
+
+#quality {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+#portfolio-cards {
+	padding: 0;
+	margin-right: 60px;
+	border: 0;
+}
+
+#project-title {
+	font-weight: bold;
+}
+
+.material-icons {
+	color: #464a4e;
+}
+
+#card-div {
+	padding-bottom: 20px;
+}
+
 
 /* ---------------------------------------------- /*
  * Contact
@@ -220,9 +249,36 @@ hr {
 #slide4{
 	height: 100vh;
 	background-color: #f5f5f5;
-	color: #fff;
-	padding: 200px 60px;
+	color: #010440;
+	padding: 130px 20px;
 	background-size: cover;
+}
+
+#contact {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#chat {
+	width: 100px;
+}
+
+#chat-row {
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+textarea.form-control {
+	height: 300px;
+}
+
+.btn-lg, .btn-group-lg > .btn {
+    padding: 10px 25px;
+    font-size: 13px;
+    background: rgba(17, 17, 17, 0.8);
+    color: #fff;
 }
 
 /* ---------------------------------------------- /*
@@ -248,7 +304,204 @@ hr {
 
 
 /* Medium devices (tablets, less than 992px) */
-@media (max-width: 991px) { 
+@media (max-width: 991px) {
+
+	/* ---------------------------------------------- /*
+	 * Global
+	/* ---------------------------------------------- */
+	
+
+	/* ---------------------------------------------- /*
+	 * Header
+	/* ---------------------------------------------- */
+
+	#header {
+		width: 100%;
+		background: #fff;
+		border-bottom: 1 px solid ;
+		height: 80px;
+		position: fixed;
+		z-index:100;
+		border-bottom: 1px solid #f5f5f5;
+	}
+
+	#logo1 {
+		border-radius: 20px;
+		color: #FF530D;
+		font-family: 'Princess Sofia', cursive;
+		font-size: 1em;
+		text-align: center;
+		margin-right: 10px;
+	}
+
+	#logo, #navbar { height: 100% }
+	#logo { padding: 0 0 0 50px; display: flex; justify-content: flex-start; align-items: center }
+	#navbar { padding: 5px 50px 10px 0; display: flex; justify-content: flex-end; align-items: center }
+	#logo a { color: #010440; text-decoration: none; font-size: 30px }
+
+	ul { list-style: none; padding-left: 0 }
+
+	li{ margin-top: 9px; float: left; padding-left: 21px }
+
+	#navbar li a { color: #010440; font-size: 16px; text-decoration: none}
+	#navbar li a.active { color: #FF530D; opacity:1}
+	#navbar li a:hover { color: #FF530D; opacity:1; }
+
+
+	/* ---------------------------------------------- /*
+	 * Landing Page
+	/* ---------------------------------------------- */
+	
+	#intro-container {
+		margin-top: -100px;
+	}
+
+	#intro {
+		font-size: 4.2em;
+	}
+
+	#job-title {
+		font-size: 2em;
+		margin-bottom: 20px;
+	}
+
+	#message {
+		padding-top: 0;
+		font-size: 1em;
+		margin-top: 300px;
+		margin-bottom: -100px;
+	}
+	
+	#intro-scroll {
+		margin-bottom: 50px;
+	}
+
+	/* ---------------------------------------------- /*
+	 * About
+	/* ---------------------------------------------- */
+
+	#slide2{
+		background-color: #fff;
+		color: #333333;
+		margin: 0 auto;
+		padding: 80px 0;
+	}
+	
+	#about-me {
+		text-align: center;
+		margin-top: 40px;
+		margin-bottom: 20px;
+		
+	}
+
+	h2 {
+		display: block;
+		font-size: 30px;
+		font-weight: 800;
+		font-family: 'Raleway', sans-serif;
+		letter-spacing: 5px;
+	}
+
+	#story, #focus { min-height: 350px; font-size: 18px; padding-top: 40px }
+	#story {
+		border-right: none;
+	}
+
+	#story-logo,
+	#focus-logo {
+		text-align: center;
+	}
+
+	.material-icons {
+		color: #FF530D;
+		font-size: 40px;
+	}
+
+	hr {
+		width: 100px;
+		margin: 0 auto;
+	}
+	/* ---------------------------------------------- /*
+	 * Porfolio
+	/* ---------------------------------------------- */
+
+	#slide3{
+		color: #464a4e;
+		padding-top: 90px;
+		background-size: cover;
+	}
+
+	#business_center {
+		font-size: .5em;
+		margin-left: 20px;
+	}
+
+	#quality {
+		margin-top: auto;
+		margin-bottom: 20px;
+		min-height: 84.8px;
+		font-family: 'Righteous', cursive;
+		font-size: 4em;
+		-ms-transform: rotate(0deg); /* IE 9 */
+	    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+	    transform: rotate(0deg);
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	}
+
+	#quality-initial {
+		font-family: 'Monoton', cursive;
+		color: #FF530D;
+	}
+
+	#portfolio-cards {
+		padding: 0;
+		margin: 20px auto;
+		border: 0;
+	}
+
+	#project-title {
+		font-weight: bold;
+	}
+
+	.material-icons {
+		color: #464a4e;
+	}
+
+	#card-div {
+		padding-bottom: 20px;
+	}
+
+	/* ---------------------------------------------- /*
+	 * Contact
+	/* ---------------------------------------------- */
+
+	#slide4{
+		background-color: #fff;
+		color: #333333;
+		padding: 80px 0;
+	}
+	
+	#chat {
+		width: 100px;
+	}
+	/* ---------------------------------------------- /*
+	 * Footer
+	/* ---------------------------------------------- */
+
+	#slide5{
+		background-color: #fff;
+		margin: 0 auto;
+		padding: 80px 0;
+		color: #fff;
+		background-size: cover;
+	}
+
+	#copyright {
+		text-align: right;
+		border-right: 1px solid black;
+	}  
 
 }
 
@@ -322,6 +575,10 @@ hr {
 		margin-top: 30px;
 		margin-bottom: 20px;
 	}
+	
+	#intro-scroll {
+		margin-bottom: 0;
+	}
 
 	/* ---------------------------------------------- /*
 	 * About
@@ -386,6 +643,10 @@ hr {
 		background-color: #fff;
 		color: #333333;
 		padding: 80px 0;
+	}
+	
+	#chat {
+		width: 100px;
 	}
 
 	/* ---------------------------------------------- /*

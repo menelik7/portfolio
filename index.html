@@ -6,6 +6,10 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+	<!-- Materialize Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <!-- jQuery -->
 	<script
 	src="https://code.jquery.com/jquery-3.2.1.min.js"
@@ -19,6 +23,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed|Lato|Raleway" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Barlow+Semi+Condensed|Fjalla+One|Monoton|Raleway|Righteous" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Aguafina+Script|Alex+Brush|Amita|Great+Vibes|Italianno|Jim+Nightshade|Monsieur+La+Doulaise|Pinyon+Script|Princess+Sofia|Qwigley|Ruthie" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Barlow+Semi+Condensed|Fjalla+One|Monoton|Raleway|Righteous" rel="stylesheet">
 	
 	<!-- fa fonts -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
@@ -106,15 +111,144 @@
 
 		<!-- Portfolio page -->
 		<div id="slide3" class="row">
-			<div id="portfolio" class="col-xs-12">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati neque quisquam saepe ab, illum tempore excepturi ullam libero officia maxime, aliquam eveniet facilis fuga rem aspernatur, impedit sed amet porro.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quidem aspernatur quae doloremque possimus rerum aliquam quam cumque velit autem, corporis optio itaque molestiae a natus iure exercitationem nulla voluptatem.</p>
-			</div> 
+			<div id="quality" class="col-xs-12">
+				<h2>Projects<i id="business_center" class="material-icons">business_center</i></h2>
+			</div>
+			
+			<!-- Top row of cards -->
+			<div id="card-container" class="col-sm-12">
+				<div class="row">
+					<div class="col-md-1"></div>
+					<!-- portfolio1 -->
+					<div id="portfolio-cards" class="card col-sm-12 col-md-3">
+						<div class="card-image waves-effect waves-block waves-light">
+							<img class="activator" src="assets/img/Fitmatch.png">
+						</div>
+						<div class="card-content">
+							<span class="card-title activator" id="project-title">Fitmatch<i class="material-icons right">more_vert</i></span>
+							<div id="card-div"><a href="#"><i class="material-icons left">explore</i></a></div>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title grey-text text-darken-4" id="boldletter"><i class="material-icons right">close</i></span>
+							<p>A reverse-phone lookup application that is quite user-friendly.  There are no hoops to jump through; no unnecessary steps to complete.  The user simply enters the phone number he/she wishes to lookup, and voila!  Information specific to the user is dynamically displayed, as well as the option to lock-in on the associated address with the help of Google Maps API.  The reverse phone is made possible by Whitepages API.
+							<hr>
+							I worked on a team to develop this app, and I was responsible for the logic and database (Javascript & Firebase), AJAX method for API queries, as well as Firebase Authentication.</p>
+						</div>
+					</div>
+					<!-- portfolio2 -->
+					<div id="portfolio-cards" class="card col-sm-12 col-md-3">
+						<div class="card-image waves-effect waves-block waves-light">
+							<img class="activator" src="assets/img/CheckWithMe.png">
+						</div>
+						<div class="card-content">
+							<span class="card-title activator" id="project-title">Check With Me<i class="material-icons right">more_vert</i></span>
+							<div id="card-div"><a href="#"><i class="material-icons left">explore</i></a></div>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title grey-text text-darken-4" id="boldletter"><i class="material-icons right">close</i></span>
+							<p>A reverse-phone lookup application that is quite user-friendly.  There are no hoops to jump through; no unnecessary steps to complete.  The user simply enters the phone number he/she wishes to lookup, and voila!  Information specific to the user is dynamically displayed, as well as the option to lock-in on the associated address with the help of Google Maps API.  The reverse phone is made possible by Whitepages API.
+							<hr>
+							I worked on a team to develop this app, and I was responsible for the logic and database (Javascript & Firebase), AJAX method for API queries, as well as Firebase Authentication.</p>
+						</div>
+					</div>
+					<!-- portfolio3 -->
+					<div id="portfolio-cards" class="card col-sm-12 col-md-3">
+						<div class="card-image waves-effect waves-block waves-light">
+							<img class="activator" src="assets/img/WhatsTheWord.png">
+						</div>
+						<div class="card-content">
+							<span class="card-title activator" id="project-title">What's The Word<i class="material-icons right">more_vert</i></span>
+							<div id="card-div"><a href="#"><i class="material-icons left">explore</i></a></div>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+							<p>is reverse-phone lookup application that is quite user-friendly.  There are no hoops to jump through; no unnecessary steps to complete.  The user simply enters the phone number he/she wishes to lookup, and voila!  Information specific to the user is dynamically displayed, as well as the option to lock-in on the associated address with the help of Google Maps API.  The reverse phone is made possible by Whitepages API.
+							<hr>
+							I worked on a team to develop this app, and I was responsible for the logic and database (Javascript & Firebase), AJAX method for API queries, as well as Firebase Authentication.</p>
+						</div>
+					</div>
+					<div class="col-md-1"></div>
+				</div>
+			</div>
+		
+			<!-- Bottom row of cards -->
+			<div id="card-container" class="col-sm-12">
+				<div class="row">
+					<div class="col-md-1"></div>
+					<!-- portfolio4 -->
+					<div id="portfolio-cards" class="card col-sm-12 col-md-3">
+						<div class="card-image waves-effect waves-block waves-light">
+							<img class="activator" src="assets/img/Giftastic.png">
+						</div>
+						<div class="card-content">
+							<span class="card-title activator" id="project-title">Giftastic<i class="material-icons right">more_vert</i></span>
+							<div id="card-div"><a href="#"><i class="material-icons left">explore</i></a></div>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+							<p>is reverse-phone lookup application that is quite user-friendly.  There are no hoops to jump through; no unnecessary steps to complete.  The user simply enters the phone number he/she wishes to lookup, and voila!  Information specific to the user is dynamically displayed, as well as the option to lock-in on the associated address with the help of Google Maps API.  The reverse phone is made possible by Whitepages API.
+							<hr>
+							I worked on a team to develop this app, and I was responsible for the logic and database (Javascript & Firebase), AJAX method for API queries, as well as Firebase Authentication.</p>
+						</div>
+					</div>
+					<!-- portfolio5 -->
+					<div id="portfolio-cards" class="card col-sm-12 col-md-3">
+						<div class="card-image waves-effect waves-block waves-light">
+							<img class="activator" src="assets/img/FriendFinder.png">
+						</div>
+						<div class="card-content">
+							<span class="card-title activator" id="project-title">Friend Finder<i class="material-icons right">more_vert</i></span>
+							<div id="card-div"><a href="#"><i class="material-icons left">explore</i></a></div>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title grey-text text-darken-4" id="boldletter"><i class="material-icons right">close</i></span>
+							<p>A reverse-phone lookup application that is quite user-friendly.  There are no hoops to jump through; no unnecessary steps to complete.  The user simply enters the phone number he/she wishes to lookup, and voila!  Information specific to the user is dynamically displayed, as well as the option to lock-in on the associated address with the help of Google Maps API.  The reverse phone is made possible by Whitepages API.
+							<hr>
+							I worked on a team to develop this app, and I was responsible for the logic and database (Javascript & Firebase), AJAX method for API queries, as well as Firebase Authentication.</p>
+						</div>
+					</div>
+					<!-- portfolio6 -->
+					<div id="portfolio-cards" class="card col-sm-12 col-md-3">
+						<div class="card-image waves-effect waves-block waves-light">
+							<img class="activator" src="assets/img/Speakup.png">
+						</div>
+						<div class="card-content">
+							<span class="card-title activator" id="project-title">Speakup<i class="material-icons right">more_vert</i></span>
+							<div id="card-div"><a href="#"><i class="material-icons left">explore</i></a></div>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title">Check With Me<i class="material-icons right">close</i></span>
+							<p>is reverse-phone lookup application that is quite user-friendly.  There are no hoops to jump through; no unnecessary steps to complete.  The user simply enters the phone number he/she wishes to lookup, and voila!  Information specific to the user is dynamically displayed, as well as the option to lock-in on the associated address with the help of Google Maps API.  The reverse phone is made possible by Whitepages API.
+							<hr>
+							I worked on a team to develop this app, and I was responsible for the logic and database (Javascript & Firebase), AJAX method for API queries, as well as Firebase Authentication.</p>
+						</div>
+					</div>
+					<div class="col-md-1"></div>
+				</div>
+			</div>
 		</div>
 
 		<!-- Contact page -->
 		<div id="slide4" class="row">
 			<div id="contact" class="col-xs-12">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati neque quisquam saepe ab, illum tempore excepturi ullam libero officia maxime, aliquam eveniet facilis fuga rem aspernatur, impedit sed amet porro.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quidem aspernatur quae doloremque possimus rerum aliquam quam cumque velit autem, corporis optio itaque molestiae a natus iure exercitationem nulla voluptatem.</p>
+				<h2>LET'S CHAT</h2>
+				<hr id="chat">
+				<div id="chat-row" class="row">
+					<div id="chat-box" class="col-xs-12 col-md-5">
+						<form>
+							<div class="form-group">
+				                <input type="Name" class="form-control" id="exampleInputName" placeholder="Name">
+			                </div>
+			                <div class="form-group">
+				                <input type="Name" class="form-control" id="exampleInputEmail1" placeholder="Email">
+			                </div>
+							<div class="form-group">
+								<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+							</div>
+							<button type="submit" class="btn btn-lg btn-block wow fadeInUp" data-wow-delay=".3s" id="load" data-loading-text="<i class='fa fa-spinner fa-spin '></i> Sending message">Send Message</button>
+						</form>
+					</div>
+				</div>
 			</div> 
 		</div>
 
@@ -128,5 +262,7 @@
 		<!-- SLIDES END -->
 	</div>
 	
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+
 </body>
 </html>
