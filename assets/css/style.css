@@ -208,18 +208,26 @@ hr {
 #slide3{
 	color: #010440;
 	padding: 130px 20px 20px 20px;
-	background-size: cover;
 }
 
 #quality {
 	text-align: center;
 	margin-bottom: 20px;
+	font-size: 30px;
+	font-weight: 800;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 5px;
+	min-height: 80px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #business_center {
 	vertical-align: middle;
 	font-size: 60px;
 	margin-left: 20px;
+	margin-top: -10px;
 	color: #FF530D;
 }
 
@@ -232,10 +240,6 @@ hr {
 	margin-right: 60px;
 	margin-bottom: 30px;
 	border: 0;
-}
-
-#project-title {
-	font-weight: bold;
 }
 
 .material-icons {
@@ -256,7 +260,7 @@ hr {
 	background-color: #f5f5f5;
 	color: #010440;
 	padding: 130px 20px;
-	background-size: cover;
+	margin-bottom: 0;
 }
 
 #contact {
@@ -292,7 +296,6 @@ textarea.form-control {
 
 #slide5{
 	height: 100vh;
-	background-color: #f5f5f5;
 	color: #fff;
 	padding: 200px 60px;
 	background-size: cover;
@@ -309,7 +312,7 @@ textarea.form-control {
 
 
 /* Medium devices (tablets, less than 992px) */
-@media (max-width: 991px) {
+@media (max-width: 1124px) {
 
 	/* ---------------------------------------------- /*
 	 * Global
@@ -394,7 +397,7 @@ textarea.form-control {
 	
 	#about-me {
 		text-align: center;
-		margin-top: 40px;
+		margin-top: 100px;
 		margin-bottom: 20px;
 		
 	}
@@ -437,8 +440,9 @@ textarea.form-control {
 	}
 
 	#business_center {
-		font-size: .5em;
+		font-size: 1.2em;
 		margin-left: 20px;
+		margin-bottom: -3px;
 	}
 
 	#quality {
@@ -446,7 +450,7 @@ textarea.form-control {
 		margin-bottom: 20px;
 		min-height: 84.8px;
 		font-family: 'Righteous', cursive;
-		font-size: 4em;
+		font-size: 2.5em;
 		-ms-transform: rotate(0deg); /* IE 9 */
 	    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
 	    transform: rotate(0deg);
@@ -459,10 +463,10 @@ textarea.form-control {
 		font-family: 'Monoton', cursive;
 		color: #FF530D;
 	}
-
 	#portfolio-cards {
 		padding: 0;
-		margin: 20px auto;
+		margin-right: 50px;
+		margin-bottom: 30px;
 		border: 0;
 	}
 
@@ -640,6 +644,7 @@ textarea.form-control {
 	}
 	
 	#quality {
+		font-size: 2em;
 		text-align: center;
 		margin-bottom: 10px;
 		margin-top: 0;	
@@ -656,6 +661,14 @@ textarea.form-control {
 		margin-bottom: 20px;
 	}
 
+	#portfolio-cards {
+		padding: 15px !important;
+	}
+	
+	#card-div {
+		padding-bottom: 20px;
+	}
+
 	/* ---------------------------------------------- /*
 	 * Contact
 	/* ---------------------------------------------- */
@@ -668,6 +681,10 @@ textarea.form-control {
 	
 	#chat {
 		width: 100px;
+	}
+
+	textarea.form-control {
+		height: 100px;
 	}
 
 	/* ---------------------------------------------- /*
@@ -817,18 +834,39 @@ textarea.form-control {
 		text-align: center;
 		margin-bottom: 10px;
 	}
+	
+	#projects {
+		min-height: 60px;
+		display: flex;
+		align-items: center;
+	}
 
 	#business_center {
-		vertical-align: middle;
 		font-size: 40px;
 		margin-left: 10px;
+		margin-top: -10px;
 		color: #FF530D;
 	}
 
 	#project-hr {
 		margin-bottom: 20px;
 	}
+	
+	#portfolio-cards {
+		padding: 15px !important;
+	}
 
+	.right {
+		color: #010440;
+	}
+	
+	#card-div {
+		padding-bottom: 20px;
+	}
+	
+	#card-content {
+		font-size: 18px;
+	}
 	/* ---------------------------------------------- /*
 	 * Contact
 	/* ---------------------------------------------- */
@@ -838,7 +876,10 @@ textarea.form-control {
 		color: #333333;
 		padding: 150px 0;
 	}
-
+	
+	textarea.form-control {
+		height: 280px;
+	}
 	/* ---------------------------------------------- /*
 	 * Footer
 	/* ---------------------------------------------- */
