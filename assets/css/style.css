@@ -10,11 +10,6 @@ body{
 	font-family: 'Raleway', sans-serif;
 }
 
-.row {
-	padding: 0 -15px;
-	height: 100%;
-}
-
 p {
 	color: #010440;
 	padding: 20px;
@@ -61,7 +56,7 @@ li{ margin-top: 9px; float: left; padding-left: 21px }
  * Landing Page
 /* ---------------------------------------------- */
 
-#slide1{
+#slide1 {
 	background: url("../img/slide1.jpg") no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -264,15 +259,10 @@ hr {
 	/* ---------------------------------------------- /*
 	 * Global
 	/* ---------------------------------------------- */
-
-	.container-fluid {
-		padding: 0;
+	
+	 {
 	}
 
-	.row {
-		padding: 0 -15px;
-		height: 100%;
-	}
 
 	/* ---------------------------------------------- /*
 	 * Header
@@ -315,17 +305,6 @@ hr {
 	 * Landing Page
 	/* ---------------------------------------------- */
 	
-
-	#slide1{
-		background:url('../img/slide1.jpg') no-repeat center center; 
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		color: #f5f5f5;
-		margin: 0;
-		background-size: cover;
-	}
 	#intro-container {
 		margin-top: 0;
 	}
@@ -374,7 +353,7 @@ hr {
 
 	#story, #focus { min-height: 350px; font-size: 18px; padding-top: 40px }
 	#story {
-		border-right: 1px solid #f5f5f5;
+		border-right: none;
 	}
 
 	#story-logo,
@@ -435,18 +414,6 @@ hr {
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) {
 	
-	/* ---------------------------------------------- /*
-	 * Global
-	/* ---------------------------------------------- */
-
-	.container-fluid {
-		padding: 0;
-	}
-
-	.row {
-		padding: 0 -15px;
-		height: 100%;
-	}
 
 	/* ---------------------------------------------- /*
 	 * Header
@@ -475,8 +442,7 @@ hr {
 	#navbar { padding-bottom: 10px; width: 100%; background: #fff; border-bottom: 1px solid #f5f5f5 }
 	#logo a { color: #010440; text-decoration: none; font-size: 30px }
 	
-	#name { margin-right: -17px }
-	ul { list-style: none; padding: 0; margin-right: -13px }
+	ul { list-style: none; padding: 0 }
 	li:first-child { padding: 0 }
 
 	li{ margin-top: 9px; float: left; padding-left: 21px }
@@ -489,19 +455,6 @@ hr {
 	/* ---------------------------------------------- /*
 	 * Landing Page
 	/* ---------------------------------------------- */
-	
-
-	#slide1{
-		background:url('../img/slide1.jpg') no-repeat center center; 
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		color: #f5f5f5;
-		height: 100vh;
-		margin: 0;
-		background-size: cover;
-	}
 
 	#intro {
 		font-size: 1.8em;
@@ -548,7 +501,7 @@ hr {
 
 	#story, #focus { min-height: 350px; font-size: 18px; padding-top: 40px }
 	#story {
-		border-right: 1px solid #f5f5f5;
+		border-right: none;
 	}
 
 	#story-logo,
