@@ -168,10 +168,6 @@ li{ margin-top: 9px; float: left; padding-left: 21px }
 #about-me {
 	text-align: center;
 	margin-bottom: 20px;
-	
-}
-
-h2 {
 	display: block;
 	font-size: 30px;
 	font-weight: 800;
@@ -196,7 +192,7 @@ h2 {
 	font-size: 60px;
 }
 
-hr {
+#about-hr {
 	width: 200px;
 	margin: 20px auto;
 }
@@ -213,14 +209,11 @@ hr {
 #quality {
 	text-align: center;
 	margin-bottom: 20px;
+	display: block;
 	font-size: 30px;
 	font-weight: 800;
 	font-family: 'Raleway', sans-serif;
 	letter-spacing: 5px;
-	min-height: 80px;
-	display: inline-flex;
-	justify-content: center;
-	align-items: center;
 }
 
 #business_center {
@@ -233,6 +226,7 @@ hr {
 
 #project-hr {
 	width: 100px;
+	margin-bottom: 40px;
 }
 
 #portfolio-cards {
@@ -266,6 +260,11 @@ hr {
 #contact {
 	text-align: center;
 	margin-bottom: 20px;
+	display: block;
+	font-size: 30px;
+	font-weight: 800;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 5px;
 }
 
 #chat {
@@ -273,7 +272,6 @@ hr {
 }
 
 #chat-row {
-	margin-top: 50px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -286,8 +284,14 @@ textarea.form-control {
 .btn-lg, .btn-group-lg > .btn {
     padding: 10px 25px;
     font-size: 13px;
-    background: rgba(17, 17, 17, 0.8);
+    background: #010440;
     color: #fff;
+}
+
+#load:hover {
+	color: #fff;
+	font-weight: bold;
+	background: #FF530D;
 }
 
 /* ---------------------------------------------- /*
@@ -295,17 +299,102 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 #slide5{
-	height: 100vh;
-	color: #fff;
-	padding: 200px 60px;
+	color: #FF530D;
+	background: #010440;
+	padding: 100px 60px;
 	background-size: cover;
+}
+
+#skills {
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 30px;
+	font-weight: 800;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 5px;
+}
+
+.chart {
+    display: inline-block;
+    height: 140px;
+    margin: 50px 0;
+    position: relative;
+    text-align: center;
+    width: 140px;
+}
+.chart canvas {
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.percent {
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 140px;
+    z-index: 2;
+}
+.percent:after {
+    content: "%";
+    font-size: 50%;
+    margin-left: 0.1em;
+}
+
+#skills-hr {
+	color: #FF530D;
+	width: 100px;
+	margin: 20px auto;
+}
+
+.pfblock-image {
+	padding: 0;
+}
+
+.pfblock-header {
+	text-align: center;
+	margin: 0 0 60px;
+}
+
+.pfblock-header-left {
+	text-align: left;
+}
+
+.pfblock-header-left .pfblock-line {
+	width: inherit;
+	margin: 30px 0;
+}
+
+.pfblock-subtitle {
+	font-family: Raleway, "Times New Roman", Times, sans-serif;
+	font-style: normal;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.pfblock-line {
+	background: rgba(135, 135, 135, 0.5);
+	width: 100px;
+	height: 1px;
+	margin: 30px auto;
+}
+
+.pfblock-icon {
+	font-size: 32px;
+}
+
+#footer {
+	padding-bottom: 5px;
+	margin-bottom: 0;
+}
+
+footer {
+
 }
 
 #copyright {
 	text-align: right;
 	border-right: 1px solid black;
 }
-
 
 
 /*******************************************Media Queries************************************************/
@@ -390,7 +479,7 @@ textarea.form-control {
 
 	#slide2{
 		background-color: #fff;
-		color: #333333;
+		color: #010440;
 		margin: 0 auto;
 		padding: 80px 0;
 	}
@@ -399,10 +488,6 @@ textarea.form-control {
 		text-align: center;
 		margin-top: 100px;
 		margin-bottom: 20px;
-		
-	}
-
-	h2 {
 		display: block;
 		font-size: 30px;
 		font-weight: 800;
@@ -602,10 +687,7 @@ textarea.form-control {
 	
 	#about-me {
 		text-align: center;
-		margin-bottom: 20px;	
-	}
-
-	h2 {
+		margin-bottom: 20px;
 		display: block;
 		font-size: 30px;
 		font-weight: 800;
@@ -788,10 +870,6 @@ textarea.form-control {
 		text-align: center;
 		margin-bottom: 20px;
 		margin-top: 0;
-		
-	}
-
-	h2 {
 		display: block;
 		font-size: 30px;
 		font-weight: 800;

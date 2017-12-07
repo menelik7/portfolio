@@ -39,6 +39,9 @@
 	<!-- CSS local -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	
+	<!-- animate CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	
 </head>
 
 <body>
@@ -84,18 +87,16 @@
 
 		<!-- About page -->
 		<div id="slide2" class="row">
-			<div id="about-me" class="col-xs-12">
-				<h2>THE SCOOP</h2>
-			</div>
+			<div id="about-me" class="col-xs-12">THE SCOOP</div>
 			<div id="story" class="col-xs-12 col-md-6">
 				<div id="story-logo"><i class="fa fa-address-card-o" aria-hidden="true"></i>
 					<br>
 					<h3>STORY</h3>
 					<br>
 				</div>
-				<hr>
+				<hr id="about-hr">
 				<p>I am originally from Ethiopia and have been living in the U.S. for half my life.  I currently work as a Project Engineer at BenchMark Management LLC, mainly managing vertical construction projects.  My job is challenging and requires a good deal of time management.  I enjoy what I do, but it does not provide opportunities to be genuinely creative.</p>
-				<hr>
+				<hr id="about-hr">
 			</div>
 			<div id="focus" class="col-xs-12 col-md-6">
 				<div id="focus-logo"><i class="fa fa-file-code-o" aria-hidden="true"></i>
@@ -103,9 +104,9 @@
 					<h3>FOCUS</h3>
 					<br>					
 				</div>
-				<hr>
+				<hr id="about-hr">
 				<p>I have been fascinated with software development dating back to the first time I was introduced to the Commodore 64.  The owner's manual included pre-written programs.  One rendered miniature hot-air ballons flying across the screen in random directions; and the other, was a segment of a musical keyboard.</p>
-				<hr>
+				<hr id="about-hr">
 			</div>
 		</div>
 
@@ -231,22 +232,22 @@
 
 		<!-- Contact page -->
 		<div id="slide4" class="row">
-			<div id="contact" class="col-xs-12">
-				<h2>LET'S CHAT</h2>
-				<hr id="chat">
+			<div id="contact" class="animated fadeInUp col-xs-12">LET'S CHAT</div>
+			<hr id="chat">
+			<dir class="col-xs-12">
 				<div id="chat-row" class="row">
 					<div id="chat-box" class="col-xs-12 col-md-5">
 						<form>
-							<div class="form-group">
+							<div class="form-group animated fadeInUp">
 				                <input type="Name" class="form-control" id="exampleInputName" placeholder="Name">
 			                </div>
-			                <div class="form-group">
+			                <div class="form-group animated fadeInUp">
 				                <input type="Name" class="form-control" id="exampleInputEmail1" placeholder="Email">
 			                </div>
-							<div class="form-group">
-								<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+							<div class="form-group animated fadeInUp">
+								<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
 							</div>
-							<button type="submit" class="btn btn-lg btn-block wow fadeInUp" data-wow-delay=".3s" id="load" data-loading-text="<i class='fa fa-spinner fa-spin '></i> Sending message">Send Message</button>
+							<button type="submit" class="btn btn-lg btn-block animated fadeInUp" data-wow-delay=".3s" id="load" data-loading-text=""><!-- <i class="fa fa-spinner fa-spin"></i> -->Send Message</button>
 						</form>
 					</div>
 				</div>
@@ -255,8 +256,47 @@
 
 		<!-- Follow Me -->
 		<div id="slide5" class="row">
-			<div id="follow-me" class="col-xs-12">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati neque quisquam saepe ab, illum tempore excepturi ullam libero officia maxime, aliquam eveniet facilis fuga rem aspernatur, impedit sed amet porro.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quidem aspernatur quae doloremque possimus rerum aliquam quam cumque velit autem, corporis optio itaque molestiae a natus iure exercitationem nulla voluptatem.</p>
+			<!-- Skills -->
+			<div id="skills" class="col-xs-12 col-sm-6 col-sm-offset-3">
+				<div class="animated fadeInUp">
+					TOOLS
+					<hr id="skills-hr">
+					<div class="pfblock-subtitle">
+						JavaScript | React.js | React-Native | Node.js | Express | MySQL | Sequelize | MongoDB | Mongoose | HTML | CSS | Bootstrap | Materialize | Media Queries | AJAX | API | JSON | REST | AJAX | CMD | Firebase | Socket-io | GIT | Github 	 
+					</div>
+				</div>
+			</div>
+			<div class="animated fadeInUp col-xs-12 col-sm-6 col-sm-offset-3 col-md-3 col-md-offset-0 text-center">
+				<span data-percent="80" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
+					<span class="percent">80</span>
+				</span>
+				<h3 class="text-center">Programming</h3>
+			</div>
+			<div class="animated fadeInUp col-xs-12 col-sm-6 col-sm-offset-3 col-md-3 col-md-offset-0 text-center">
+				<span data-percent="90" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
+					<span class="percent">90</span>
+				</span>
+				<h3 class="text-center">Design</h3>
+			</div>
+			<div class="animated fadeInUp col-xs-12 col-sm-6 col-sm-offset-3 col-md-3 col-md-offset-0 text-center">
+				<span data-percent="85" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
+					<span class="percent">95</span>
+				</span>
+				<h3 class="text-center">Creative</h3>
+			</div>
+			<div class="animated fadeInUp col-xs-12 col-sm-6 col-sm-offset-3 col-md-3 col-md-offset-0 text-center">
+				<span data-percent="95" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
+					<span class="percent">85</span>
+				</span>
+				<h3 class="text-center">UI / UX</h3>
+			</div>
+			<!-- Copyright and Credits -->
+			<div id="copyright" class="animated fadeInUp col-xs-12 col-md-6">
+				Copyright &copy; 2017 Menelik Tefera
+			</div>
+			<div class="animated fadeInUp col-xs-12 col-md-6" id="picture-credit">Special thanks to
+				<a style="margin-top: -5px;background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px;" href="https://unsplash.com/@florianklauer?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Florian Klauer"><span style="display:inline-block;padding:2px 3px;"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white;" viewBox="0 0 32 32"><title></title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px;">Florian Klauer</span></a>
+				<a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px;" href="https://unsplash.com/@samuelzeller?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Samuel Zeller"><span style="display:inline-block;padding:2px 3px;"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white;" viewBox="0 0 32 32"><title></title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px;">Samuel Zeller</span></a>
 			</div>
 		</div>
 
