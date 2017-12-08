@@ -35,4 +35,20 @@ $(document).ready(function() {
       $('#header').addClass('hidden');
     }
   });
+
+  // animate the tools chart
+  $('.skills').waypoint(function(){
+    $('.chart').each(function(){
+      $(this).easyPieChart({
+        size:140,
+        animate: 2000,
+        lineCap:'butt',
+        scaleColor: false,
+        barColor: '#FF530D',
+        trackColor: 'transparent',
+        lineWidth: 10
+      });
+    });
+  },{offset:'80%'});
+
 });
