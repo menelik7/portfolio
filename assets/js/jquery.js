@@ -3,6 +3,11 @@ $(document).ready(function() {
   // Allows for one-page smooth scrolling between sections
   $('a[href*=#]').bind("click", function(e){       
     var anchor = $(this);
+    $(this).click(function() {
+      $("#navbar li a").removeClass("active");
+      $(this).addClass('active');
+      return false;
+    });
     $('html, body').stop().animate({
       scrollTop: $(anchor.attr('href')).offset().top
     }, 1000);
@@ -36,3 +41,5 @@ $(document).ready(function() {
   },{offset:'80%'});
 
 });
+
+
