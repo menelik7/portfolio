@@ -31,7 +31,7 @@ p {
 }
 
 #logo1 {
-	color: #FF530D;
+	color: #FF530D !important;
 	font-family: 'Princess Sofia', cursive;
 	text-align: center;
 	margin-right: 20px;
@@ -85,7 +85,6 @@ li{ margin-top: 9px; float: left; padding-left: 21px }
 
 #initial {
 	margin-left: 10px;
-	border-radius: 20px;
 	font-family: 'Princess Sofia', cursive;
 	font-size: 1.2em;
 	color: #010440;
@@ -410,9 +409,6 @@ textarea.form-control {
 	}
 
 	#logo1 {
-		border-radius: 20px;
-		color: #FF530D;
-		font-family: 'Princess Sofia', cursive;
 		font-size: 1em;
 		text-align: center;
 		margin-right: 10px;
@@ -684,24 +680,21 @@ textarea.form-control {
 	}
 
 	#logo1 {
-		border-radius: 20px;
-		color: #FF530D;
-		font-family: 'Princess Sofia', cursive;
-		font-size: 1em;
+		font-size: .8em;
 		text-align: center;
 		margin-right: 10px;
 	}
 
 	#logo, #navbar { height: 100% }
-	#logo { padding: 0 0 0 50px; display: flex; justify-content: flex-start; align-items: center }
-	#navbar { padding: 5px 50px 10px 0; display: flex; justify-content: flex-end; align-items: center }
-	#logo a { color: #010440; text-decoration: none; font-size: 30px }
+	#logo { padding: 0 0 0 40px; display: flex; justify-content: flex-start; align-items: center }
+	#navbar { padding: 5px 40px 10px 0; display: flex; justify-content: flex-end; align-items: center }
+	#logo a { color: #010440; text-decoration: none; font-size: 22px }
 
 	ul { list-style: none; padding-left: 0 }
 
 	li{ margin-top: 9px; float: left; padding-left: 21px }
 
-	#navbar li a { color: #010440; font-size: 16px; text-decoration: none}
+	#navbar li a { color: #010440; font-size: 14px; text-decoration: none}
 	#navbar li a.active { color: #FF530D; opacity:1}
 	#navbar li a:hover { color: #FF530D; opacity:1; }
 
@@ -945,20 +938,25 @@ textarea.form-control {
 		position: fixed;
 		z-index:100;
 	}
+	
+	#intro {
+		margin-bottom: 100px;
+	}
 
 	#logo1 {
-		border-radius: 20px;
-		color: #FF530D;
-		font-family: 'Princess Sofia', cursive;
 		font-size: 1em;
 		text-align: center;
 		margin-right: 8px;
+	}
+	
+	#initial {
+		margin-left: 0;	
 	}
 
 	#logo, #navbar { height: 50%; padding: 0; display: flex; justify-content: center; align-items: center }
 	#logo { width: 100%; padding-top: 5px }
 	#navbar { padding-bottom: 10px; width: 100%; background: #fff; border-bottom: 1px solid #f5f5f5 }
-	#logo a { color: #010440; text-decoration: none; font-size: 30px }
+	#logo a { color: #010440; text-decoration: none; font-size: 26px }
 	
 	ul { list-style: none; padding: 0 }
 	li:first-child { padding: 0 }

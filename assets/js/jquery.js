@@ -1,33 +1,17 @@
 $(document).ready(function() {
 
   // Allows for one-page smooth scrolling between sections
-  $('a[href*=\\#]').each(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
-    && location.hostname == this.hostname
-    && this.hash.replace(/#/,'') ) {
-      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
-      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
-      if ($target) {
-        var targetOffset = $target.offset().top;
-        $(this).click(function() {
-          $("#navbar li a").removeClass("active");
-          $(this).addClass('active');
-          $('html, body').animate({scrollTop: targetOffset}, 1000);
-          return false;
-        });
-
-        $(".row").mouseenter(function(){
-          var id = $(this).attr('id');
-          $("#navbar li a").removeClass('active');
-          $("[href=\\#"+id+"]").addClass('active');
-        });
-      }
-    }
+  $('a[href*=#]').bind("click", function(e){       
+    var anchor = $(this);
+    $('html, body').stop().animate({
+      scrollTop: $(anchor.attr('href')).offset().top
+    }, 1000);
+    e.preventDefault();
   });
 
   // displays and hides "header" depending on the scroll location (hidden @ Home)
   $(window).scroll(function() {
-    if ($(this).scrollTop() > 400) {
+    if ($(this).scrollTop() > 370) {
       $('#header').removeClass('hidden');
       $('#header').fadeIn();
     } else {
