@@ -716,7 +716,7 @@ textarea.form-control {
 		background-color: #fff;
 		color: #010440;
 		margin: 0 auto;
-		padding: 100px 0;
+		padding: 100px 0 0 0;
 	}
 	
 	#about-me {
@@ -728,7 +728,7 @@ textarea.form-control {
 		letter-spacing: 5px;
 	}
 
-	#story, #focus { min-height: 350px; font-size: 18px; padding-top: 40px }
+	#story, #focus { min-height: 350px; font-size: 18px; padding-top: 0 }
 	#story {
 		border-right: none;
 	}
@@ -743,10 +743,28 @@ textarea.form-control {
 		font-size: 40px;
 	}
 
-	hr {
-		width: 100px;
-		margin: 0 auto;
+	#story-para {
+		border: 1px solid #f5f5f5;
 	}
+
+	#focus-para {
+		border: 1px solid #f5f5f5;
+	}
+
+	/* ---------------------------------------------- /*
+	 * Filler Picture 1
+	/* ---------------------------------------------- */
+
+	#filler-pic1 {
+		height: 300px;
+		margin: 60px -15px 0 -15px;
+		background: url("../img/dustin-lee-19667.jpg") no-repeat center center; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
 	/* ---------------------------------------------- /*
 	 * Porfolio
 	/* ---------------------------------------------- */
@@ -754,7 +772,7 @@ textarea.form-control {
 	#slide3{
 		background-color: #fff;
 		color: #010440;
-		padding: 100px 0;
+		padding: 120px 0;
 		background-size: cover;
 	}
 	
@@ -791,7 +809,7 @@ textarea.form-control {
 	#slide4{
 		background-color: #f5f5f5;
 		color: #010440;
-		padding: 100px 0;
+		padding: 100px 0 0 0;
 	}
 	
 	#contact {
@@ -812,13 +830,27 @@ textarea.form-control {
 	}
 
 	/* ---------------------------------------------- /*
+	 * Filler Picture 1
+	/* ---------------------------------------------- */
+
+	#filler-pic2 {
+		height: 300px;
+		margin: 0 -15px;
+		background: url("../img/chris-karidis-313612.jpg") no-repeat center center; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+	/* ---------------------------------------------- /*
 	 * Footer
 	/* ---------------------------------------------- */
 
 	#slide5{
 		color: #FF530D;
 		background: #010440;
-		padding: 100px 0;
+		padding: 100px 0 0 0;
 		background-size: cover;
 		margin-bottom: 0;
 	}
@@ -966,7 +998,7 @@ textarea.form-control {
 		background-color: #fff;
 		color: #010440;
 		margin: 0 auto;
-		padding: 130px 0;
+		padding: 130px 0 0 0;
 	}
 	
 	#about-me {
@@ -1007,7 +1039,7 @@ textarea.form-control {
 	#slide3{
 		background-color: #fff;
 		color: #010440;
-		padding: 130px 0;
+		padding: 130px 0 0 0;
 		background-size: cover;
 	}
 	
@@ -1055,7 +1087,7 @@ textarea.form-control {
 	#slide4{
 		background-color: #fff;
 		color: #010440;
-		padding: 130px 0;
+		padding: 130px 0 0 0;
 	}
 	
 	#contact {
