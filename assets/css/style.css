@@ -938,7 +938,12 @@ textarea.form-control {
 	/* ---------------------------------------------- /*
 	 * Header
 	/* ---------------------------------------------- */
-
+	#header {
+		height: 120px;
+		position: fixed;
+		z-index:100;
+		border-bottom: 1px solid #f5f5f5;
+	}
 	#intro {
 		margin-bottom: 100px;
 	}
@@ -998,7 +1003,7 @@ textarea.form-control {
 		background-color: #fff;
 		color: #010440;
 		margin: 0 auto;
-		padding: 130px 0 0 0;
+		padding: 140px 0 0 0;
 	}
 	
 	#about-me {
@@ -1039,7 +1044,7 @@ textarea.form-control {
 	#slide3{
 		background-color: #fff;
 		color: #010440;
-		padding: 130px 0 0 0;
+		padding: 140px 0 0 0;
 		background-size: cover;
 	}
 	
@@ -1087,7 +1092,7 @@ textarea.form-control {
 	#slide4{
 		background-color: #fff;
 		color: #010440;
-		padding: 130px 0 0 0;
+		padding: 140px 0 0 0;
 	}
 	
 	#contact {
@@ -1111,7 +1116,7 @@ textarea.form-control {
 	#slide5{
 		color: #FF530D;
 		background: #010440;
-		padding: 130px 0 0 0;
+		padding: 140px 0 0 0;
 		background-size: cover;
 		margin-bottom: 0;
 	}
