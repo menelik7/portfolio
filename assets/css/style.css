@@ -80,6 +80,7 @@ li{ margin-top: 9px; float: left; padding-left: 21px }
 #intro {
 	font-size: 5em;
 	margin-top: 50px;
+	margin-bottom: 150px;
 }
 
 #initial {
@@ -99,7 +100,7 @@ li{ margin-top: 9px; float: left; padding-left: 21px }
 
 #message {
 	font-size: 1em;
-	margin-top: 100px;
+	margin-top: 50px;
 	color: #f5f5f5
 }
 
@@ -428,6 +429,7 @@ textarea.form-control {
 
 	#intro {
 		font-size: 4.2em;
+		margin-bottom: 100px;
 	}
 
 	#job-title {
@@ -438,7 +440,7 @@ textarea.form-control {
 	#message {
 		padding-top: 0;
 		font-size: 1em;
-		margin-top: 200px;
+		margin-top: 100px;
 		margin-bottom: -100px;
 	}
 	
@@ -688,11 +690,11 @@ textarea.form-control {
 	#intro {
 		font-size: 3em;
 		margin-top: 20px;
+		margin-bottom: 40px;
 	}
 
 	#job-title {
 		font-size: 1.5em;
-		margin-bottom: 20px;
 	}
 
 	#message {
@@ -948,7 +950,7 @@ textarea.form-control {
 	}
 
 	#message {
-		margin-top: 100px;
+		margin-top: 90px;
 		font-size: .7em;
 	}
 	
@@ -964,7 +966,7 @@ textarea.form-control {
 		background-color: #fff;
 		color: #010440;
 		margin: 0 auto;
-		padding: 150px 0;
+		padding: 130px 0;
 	}
 	
 	#about-me {
@@ -1005,7 +1007,7 @@ textarea.form-control {
 	#slide3{
 		background-color: #fff;
 		color: #010440;
-		padding: 150px 0 20px 0;
+		padding: 130px 0;
 		background-size: cover;
 	}
 	
@@ -1059,6 +1061,7 @@ textarea.form-control {
 	#contact {
 		text-align: center;
 		margin-bottom: 20px;
+		margin-top: 0;
 		display: block;
 		font-size: 2em;
 		font-weight: 800;
@@ -1076,7 +1079,7 @@ textarea.form-control {
 	#slide5{
 		color: #FF530D;
 		background: #010440;
-		padding: 150px 0 0 0;
+		padding: 130px 0 0 0;
 		background-size: cover;
 		margin-bottom: 0;
 	}
@@ -1084,6 +1087,7 @@ textarea.form-control {
 	#skills {
 		text-align: center;
 		margin-bottom: 20px;
+		margin-top: 0;
 		display: block;
 		font-size: 30px;
 		font-weight: 800;
