@@ -475,6 +475,10 @@ textarea.form-control {
 		border-right: none;
 	}
 
+	#story {
+		border-right: 1px solid #f5f5f5;
+	}
+
 	#story-logo,
 	#focus-logo {
 		text-align: center;
@@ -647,8 +651,8 @@ textarea.form-control {
 }
 
 
-/* Small devices (landscape phones, less than 768px)*/
-@media (max-width: 767px) {
+/* Small devices (landscape phones, less than 769px)*/
+@media (max-width: 768px) {
 	
 	/* ---------------------------------------------- /*
 	 * Global
@@ -749,6 +753,10 @@ textarea.form-control {
 
 	#focus-para {
 		border: 1px solid #f5f5f5;
+	}
+
+	#about-hr {
+		visibility: hidden;
 	}
 
 	/* ---------------------------------------------- /*
