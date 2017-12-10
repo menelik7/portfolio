@@ -80,7 +80,7 @@ li{ margin-top: 9px; float: left; padding-left: 21px }
 #intro {
 	font-size: 5em;
 	margin-top: 50px;
-	margin-bottom: 150px;
+	margin-bottom: 100px;
 }
 
 #initial {
@@ -95,7 +95,7 @@ li{ margin-top: 9px; float: left; padding-left: 21px }
 
 #job-title {
 	font-size: 2em;
-	margin-bottom: 70px;
+	margin-bottom: 50px;
 }
 
 #message {
@@ -700,7 +700,7 @@ textarea.form-control {
 	#message {
 		padding-top: 0;
 		font-size: .8em;
-		margin-top: 30px;
+		margin-top: 20px;
 		margin-bottom: 20px;
 	}
 	
