@@ -161,7 +161,7 @@ li{ margin-top: 9px; float: left; padding-left: 21px }
 #slide2{
 	color: #010440;
 	margin: 0 auto;
-	padding: 130px 60px;
+	padding: 130px 60px 60px 60px;
 }
 
 #about-me {
@@ -194,6 +194,22 @@ li{ margin-top: 9px; float: left; padding-left: 21px }
 #about-hr {
 	width: 200px;
 	margin: 20px auto;
+}
+
+/* ---------------------------------------------- /*
+ * Filler Picture 1
+/* ---------------------------------------------- */
+
+#filler-pic1 {
+	position: relative;
+	bottom: -40px;
+	height: 600px;
+	margin: 0 -15px;
+	background: url("../img/dustin-lee-19667.jpg") no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 /* ---------------------------------------------- /*
@@ -235,8 +251,12 @@ li{ margin-top: 9px; float: left; padding-left: 21px }
 	border: 0;
 }
 
+#project-title {
+	font-weight: bold;
+}
+
 .material-icons {
-	color: #464a4e;
+	color: #010440;
 }
 
 #card-div {
@@ -294,6 +314,20 @@ textarea.form-control {
 	color: #fff;
 	font-weight: bold;
 	background: #FF530D;
+}
+
+/* ---------------------------------------------- /*
+ * Filler Picture 2
+/* ---------------------------------------------- */
+
+#filler-pic2 {
+	height: 600px;
+	margin: 0 -15px;
+	background: url("../img/chris-karidis-313612.jpg") no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 /* ---------------------------------------------- /*
@@ -485,7 +519,6 @@ textarea.form-control {
 	}
 
 	.material-icons {
-		color: #FF530D;
 		font-size: 40px;
 	}
 
@@ -525,14 +558,6 @@ textarea.form-control {
 		margin-right: 50px;
 		margin-bottom: 30px;
 		border: 0;
-	}
-
-	#project-title {
-		font-weight: bold;
-	}
-
-	.material-icons {
-		color: #464a4e;
 	}
 
 	#card-div {
@@ -742,11 +767,6 @@ textarea.form-control {
 		text-align: center;
 	}
 
-	.material-icons {
-		color: #FF530D;
-		font-size: 40px;
-	}
-
 	#story-para {
 		border: 1px solid #f5f5f5;
 	}
@@ -764,8 +784,10 @@ textarea.form-control {
 	/* ---------------------------------------------- */
 
 	#filler-pic1 {
+		position: relative;
+		bottom: -40px;
 		height: 300px;
-		margin: 60px -15px 0 -15px;
+		margin: 0 -15px;
 		background: url("../img/dustin-lee-19667.jpg") no-repeat center center; 
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -780,7 +802,7 @@ textarea.form-control {
 	#slide3{
 		background-color: #fff;
 		color: #010440;
-		padding: 120px 0;
+		padding: 120px 0 0 0;
 		background-size: cover;
 	}
 	
@@ -804,8 +826,19 @@ textarea.form-control {
 
 	#portfolio-cards {
 		padding: 15px !important;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+
+	.card-content {
+		padding-bottom: 10px;
+		-webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+		box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
 	}
 	
+	.left {
+		font-size: 30px;
+	}
 	#card-div {
 		padding-bottom: 20px;
 	}
@@ -838,7 +871,7 @@ textarea.form-control {
 	}
 
 	/* ---------------------------------------------- /*
-	 * Filler Picture 1
+	 * Filler Picture 2
 	/* ---------------------------------------------- */
 
 	#filler-pic2 {
@@ -1034,25 +1067,6 @@ textarea.form-control {
 	#focus-logo {
 		text-align: center;
 	}
-
-	.material-icons {
-		color: #FF530D;
-		font-size: 40px;
-	}
-
-	hr {
-		width: 100px;
-		margin: 0 auto;
-	}
-
-	/* ---------------------------------------------- /*
-	 * Filler Picture 1
-	/* ---------------------------------------------- */
-
-	#filler-pic1 {
-		margin-top: 140px;
-	}
-
 
 	/* ---------------------------------------------- /*
 	 * Porfolio
