@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   // Allows for one-page smooth scrolling between sections
-  $('a[href*=#]').bind("click", function(e){       
+  $('a[href*=#slide]').bind("click", function(e){       
     var anchor = $(this);
     $(this).click(function() {
       $("#navbar li a").removeClass("active");
