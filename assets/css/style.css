@@ -232,11 +232,12 @@ li{ margin-top: 9px; float: left; padding-left: 21px }
 }
 
 #project-icon {
+	display: none;
 	text-align: center;
 	margin-bottom: 20px;
 }
 
-#business_center {
+#outcome-icon {
 	vertical-align: middle;
 	font-size: 60px;
 	margin-left: 20px;
@@ -541,12 +542,6 @@ textarea.form-control {
 		background-size: cover;
 	}
 
-	#business_center {
-		font-size: 1.2em;
-		margin-left: 20px;
-		margin-bottom: -3px;
-	}
-
 	#project {
 		text-align: center;
 		margin-top: 20px;
@@ -808,7 +803,7 @@ textarea.form-control {
 	#slide3{
 		background-color: #fff;
 		color: #010440;
-		padding: 120px 0 0 0;
+		padding: 120px 0 100px 0;
 		background-size: cover;
 	}
 	
@@ -819,15 +814,11 @@ textarea.form-control {
 		margin-top: 0;	
 	}
 	
-	#project-icon {
-		text-align: center;
-		margin-bottom: 10px;
-	}
-
-	#business_center {
+	#outcome-icon {
 		vertical-align: middle;
-		font-size: 40px;
-		margin-left: 10px;
+		font-size: 60px;
+		margin-left: 20px;
+		margin-top: -10px;
 		color: #FF530D;
 	}
 
@@ -1114,21 +1105,26 @@ textarea.form-control {
 	}
 	
 	#project-icon {
+		display: inherit;
 		text-align: center;
 		margin-bottom: 70px;
 	}
 
-	#business_center {
-		font-size: 40px;
-		margin-left: 10px;
-		margin-top: -10px;
-		color: #FF530D;
+	#outcome-icon {
+		display: none;
 	}
 
 	#project-hr {
 		margin-bottom: 30px;
 	}
 	
+	#business_center {
+		vertical-align: middle;
+		font-size: 60px;
+		margin-left: 10px;
+		color: #FF530D;
+	}
+
 	#portfolio-cards {
 		padding: 15px !important;
 	}
