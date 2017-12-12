@@ -334,6 +334,7 @@ textarea.form-control {
 	margin-bottom: 0;
 }
 
+#tools,
 #skills {
 	text-align: center;
 	margin-top: 20px;
@@ -345,7 +346,12 @@ textarea.form-control {
 	letter-spacing: 5px;
 }
 
+#skills {
+	margin-bottom: 0;
+}
+
 .technologies {
+	color: #fff;
 	font-family: Raleway, "Times New Roman", Times, sans-serif;
 	font-style: normal;
 	font-size: 18px;
@@ -370,6 +376,7 @@ textarea.form-control {
 }
 
 .text-center {
+	color: #fff;
 	font-size: 18px;
 	margin-bottom: 20px;
 }
@@ -387,6 +394,7 @@ textarea.form-control {
     margin-left: 0.1em;
 }
 
+#tools-hr,
 #skills-hr {
 	color: #FF530D;
 	width: 50px;
@@ -395,7 +403,8 @@ textarea.form-control {
 }
 
 #footer {
-	margin-top: 40px;
+	margin-top: 20px;
+	color: #fff;
 }
 
 #copyright {
@@ -403,6 +412,10 @@ textarea.form-control {
 	text-align: right;
 	border-right: 1px solid #FF530D;
 	padding: 3px 20px;
+}
+
+#copyright-text {
+	margin-right: 2px;
 }
 
 #picture-credit {
@@ -588,7 +601,8 @@ textarea.form-control {
 	#slide5{
 		padding: 80px 0;
 	}
-
+	
+	#tools,
 	#skills {
 		text-align: center;
 		margin-top: 20px;
@@ -598,6 +612,10 @@ textarea.form-control {
 		font-weight: 800;
 		font-family: 'Raleway', sans-serif;
 		letter-spacing: 5px;
+	}
+	
+	#skills {
+		margin-bottom: 0;
 	}
 
 	.technologies {
@@ -638,7 +656,8 @@ textarea.form-control {
 	    font-size: 50%;
 	    margin-left: 0.1em;
 	}
-
+	
+	#tools-hr,
 	#skills-hr {
 		color: #FF530D;
 		width: 50px;
@@ -653,7 +672,6 @@ textarea.form-control {
 	#copyright {
 		height: 30px;
 		text-align: right;
-		border-right: 1px solid #FF530D;
 		padding: 3px 20px;
 	}
 
@@ -889,7 +907,8 @@ textarea.form-control {
 	#slide5{
 		padding: 100px 0 20px 0;
 	}
-
+	
+	#tools,
 	#skills {
 		text-align: center;
 		display: block;
@@ -897,6 +916,10 @@ textarea.form-control {
 		font-weight: 800;
 		font-family: 'Raleway', sans-serif;
 		letter-spacing: 5px;
+	}
+	
+	#skills {
+		margin-bottom: 0;
 	}
 
 	.technologies {
@@ -937,7 +960,7 @@ textarea.form-control {
 	    font-size: 50%;
 	    margin-left: 0.1em;
 	}
-
+	#tools-hr,
 	#skills-hr {
 		color: #FF530D;
 		width: 50px;
@@ -952,17 +975,21 @@ textarea.form-control {
 	#copyright {
 		height: 30px;
 		text-align: right;
-		border-right: 1px solid #FF530D;
 		padding: 3px 20px;
 		display: flex;
 		align-items: center;
 		justify-content: flex-end;
+	}
+	
+	#copyright-text {
+		margin-right: 4px;
 	}
 
 	#picture-credit {
 		height: 30px;
 		display: flex;
 		align-items: center;
+		padding-left: 20px;
 	} 
 	
 	#elena {
@@ -1148,7 +1175,8 @@ textarea.form-control {
 	#slide5{
 		padding: 140px 0 20px 0;
 	}
-
+	
+	#tools,
 	#skills {
 		text-align: center;
 		margin-bottom: 20px;
@@ -1158,6 +1186,11 @@ textarea.form-control {
 		font-weight: 800;
 		font-family: 'Raleway', sans-serif;
 		letter-spacing: 5px;
+	}
+	
+	#skills {
+		margin-bottom: 0;
+		margin-top: 20px;
 	}
 
 	.technologies {
@@ -1198,7 +1231,7 @@ textarea.form-control {
 	    font-size: 50%;
 	    margin-left: 0.1em;
 	}
-
+	#tools-hr,
 	#skills-hr {
 		color: #FF530D;
 		width: 50px;
@@ -1209,14 +1242,20 @@ textarea.form-control {
 	#footer {
 		margin-top: 40px;
 	}
+	
+	#copyright-text {
+		display: none;
+	}
+
+	#elena {
+		display: none;
+	}
 
 	#copyright {
 		text-align: left;
 		font-size: .8em;
 		height: 20px;
-		border-right: none;
-		padding: 0 7px 0 22px;
-		border-right: 1px solid #FF530D;
+		padding: 0 20px 0 22px;
 	}
 
 	#picture-credit {
@@ -1224,7 +1263,7 @@ textarea.form-control {
 		height: 20px;
 		display: inline-flex;
 		align-items: center;
-		padding-left: 5px;
+		padding-left: 10px;
 	}
 
 }
