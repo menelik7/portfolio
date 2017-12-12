@@ -71,7 +71,7 @@
 					<h1 id="intro"><span id="hi">H I , </span><span id="im"> I ' M </span><span id="initial">M</span> E N E L I K</h1>
 					<h3 id="job-title">A Full Stack Web Developer</h3>
 					<br>
-					<p id="message">available for freelance or full-time work</p>
+					<p id="availability">available for freelance or full-time work</p>
 					<div id="intro-scroll">
 						<a href="#slide2">
 						
@@ -181,15 +181,15 @@
 					<div id="chat-box" class="col-xs-12 col-md-5">
 						<form method="post" action="acknowledge.php">
 							<div class="form-group animated fadeInUp">
-				                <input type="Name" class="form-control" id="name" placeholder="Name">
+				                <input type="Name" name="name" class="form-control" id="name" placeholder="Name">
 			                </div>
 			                <div class="form-group animated fadeInUp">
-				                <input type="Email" class="form-control" id="email" placeholder="Email">
+				                <input type="Email" name="email" class="form-control" id="email" placeholder="Email">
 			                </div>
 							<div class="form-group animated fadeInUp">
-								<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+								<textarea class="form-control" name="message" id="message" placeholder="Message"></textarea>
 							</div>
-							<button type="submit" class="btn btn-lg btn-block animated fadeInUp" data-wow-delay=".3s" id="load" data-loading-text=""><!-- <i class="fa fa-spinner fa-spin"></i> -->Send Message</button>
+							<button type="submit" name="send" value="Send Message" id="send" class="btn btn-lg btn-block animated fadeInUp">SEND <i class="glyphicon glyphicon-send"></i></button>
 						</form>
 					</div>
 				</div>

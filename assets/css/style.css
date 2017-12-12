@@ -98,7 +98,7 @@ li{ margin-top: 9px; float: left; padding-left: 21px }
 	margin-bottom: 50px;
 }
 
-#message {
+#availability {
 	font-size: 1em;
 	margin-top: 50px;
 	color: #f5f5f5
@@ -292,6 +292,7 @@ li{ margin-top: 9px; float: left; padding-left: 21px }
 	align-items: center;
 }
 
+#name, #email, #message { color: #010440; }
 textarea.form-control {
 	height: 300px;
 }
@@ -303,7 +304,7 @@ textarea.form-control {
     color: #fff;
 }
 
-#load:hover {
+#send:hover {
 	color: #fff;
 	font-weight: bold;
 	background: #FF530D;
@@ -477,7 +478,7 @@ textarea.form-control {
 		margin-bottom: 20px;
 	}
 
-	#message {
+	#availability {
 		padding-top: 0;
 		font-size: 1em;
 		margin-top: 100px;
@@ -727,7 +728,7 @@ textarea.form-control {
 		font-size: 1.5em;
 	}
 
-	#message {
+	#availability {
 		padding-top: 0;
 		font-size: .8em;
 		margin-top: 20px;
@@ -1047,7 +1048,7 @@ textarea.form-control {
 		font-size: 1.3em;
 	}
 
-	#message {
+	#availability {
 		margin-top: 90px;
 		font-size: .7em;
 	}
