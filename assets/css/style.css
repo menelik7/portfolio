@@ -231,13 +231,13 @@ li{ margin-top: 9px; float: left; padding-left: 21px }
 	letter-spacing: 5px;
 }
 
-#project-icon {
+#outcome-icon2 {
 	display: none;
 	text-align: center;
 	margin-bottom: 20px;
 }
 
-#outcome-icon {
+#outcome-icon1 {
 	vertical-align: middle;
 	font-size: 60px;
 	margin-left: 20px;
@@ -814,7 +814,7 @@ textarea.form-control {
 		margin-top: 0;	
 	}
 	
-	#outcome-icon {
+	#outcome-icon1 {
 		vertical-align: middle;
 		font-size: 60px;
 		margin-left: 20px;
@@ -1104,14 +1104,14 @@ textarea.form-control {
 		margin-bottom: 20px;
 	}
 	
-	#project-icon {
+	#outcome-icon1 {
+		display: none;
+	}
+
+	#outcome-icon2 {
 		display: inherit;
 		text-align: center;
 		margin-bottom: 70px;
-	}
-
-	#outcome-icon {
-		display: none;
 	}
 
 	#project-hr {
