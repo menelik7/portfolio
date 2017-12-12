@@ -887,7 +887,7 @@ textarea.form-control {
 	/* ---------------------------------------------- */
 
 	#slide5{
-		padding: 100px 0 0 0;
+		padding: 100px 0 20px 0;
 	}
 
 	#skills {
@@ -954,12 +954,20 @@ textarea.form-control {
 		text-align: right;
 		border-right: 1px solid #FF530D;
 		padding: 3px 20px;
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
 	}
 
 	#picture-credit {
 		height: 30px;
+		display: flex;
+		align-items: center;
 	} 
-	 
+	
+	#elena {
+		margin-right: 5px;
+	}
 }
 
 
@@ -1138,7 +1146,7 @@ textarea.form-control {
 	/* ---------------------------------------------- */
 
 	#slide5{
-		padding: 140px 0 0 0;
+		padding: 140px 0 20px 0;
 	}
 
 	#skills {
@@ -1214,8 +1222,9 @@ textarea.form-control {
 	#picture-credit {
 		font-size: .8em;
 		height: 20px;
-		padding: 0 0 0 15px;
-		margin-top: -5.5px;
+		display: inline-flex;
+		align-items: center;
+		padding-left: 5px;
 	}
 
 }
