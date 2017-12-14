@@ -329,7 +329,7 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 #slide5{
-	color: #C7C7C7;
+	color: #fff;
 	background: #010A26;
 	padding: 110px 0 20px 0;
 	background-size: cover;
@@ -354,7 +354,7 @@ textarea.form-control {
 }
 
 .technologies {
-	color: #C7C7C7;
+	color: #fff;
 	font-family: Raleway, "Times New Roman", Times, sans-serif;
 	font-style: normal;
 	font-size: 18px;
@@ -408,7 +408,7 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 #footer {
-	color: #C7C7C7;
+	color: #fff;
 	background: #010A26;
 	background-size: cover;
 }
