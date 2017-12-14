@@ -325,11 +325,11 @@ textarea.form-control {
 }
 
 /* ---------------------------------------------- /*
- * Footer
+ * Skills
 /* ---------------------------------------------- */
 
 #slide5{
-	color: #FF530D;
+	color: #C7C7C7;
 	background: #010A26;
 	padding: 110px 0 20px 0;
 	background-size: cover;
@@ -338,6 +338,7 @@ textarea.form-control {
 
 #tools,
 #skills {
+	color: #FF530D;
 	text-align: center;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -353,7 +354,7 @@ textarea.form-control {
 }
 
 .technologies {
-	color: #fff;
+	color: #C7C7C7;
 	font-family: Raleway, "Times New Roman", Times, sans-serif;
 	font-style: normal;
 	font-size: 18px;
@@ -378,7 +379,6 @@ textarea.form-control {
 }
 
 .text-center {
-	color: #fff;
 	font-size: 18px;
 	margin-bottom: 20px;
 }
@@ -398,15 +398,19 @@ textarea.form-control {
 
 #tools-hr,
 #skills-hr {
-	color: #FF530D;
 	width: 50px;
 	margin: 20px auto;
 	opacity: .5;
 }
 
+/* ---------------------------------------------- /*
+ * Footer
+/* ---------------------------------------------- */
+
 #footer {
-	margin-top: 20px;
-	color: #fff;
+	color: #C7C7C7;
+	background: #010A26;
+	background-size: cover;
 }
 
 #copyright {
@@ -591,7 +595,7 @@ textarea.form-control {
 		margin-bottom: 15px;
 	}
 	/* ---------------------------------------------- /*
-	 * Footer
+	 * Skills
 	/* ---------------------------------------------- */
 
 	#slide5{
@@ -660,9 +664,15 @@ textarea.form-control {
 		margin: 20px auto;
 		opacity: .5;
 	}
+	
+	/* ---------------------------------------------- /*
+	 * Footer
+	/* ---------------------------------------------- */
 
 	#footer {
-		margin-top: 40px;
+		color: #C7C7C7;
+		background: #010A26;
+		background-size: cover;
 	}
 
 	#copyright {
@@ -893,7 +903,7 @@ textarea.form-control {
 	}
 
 	/* ---------------------------------------------- /*
-	 * Footer
+	 * Skills
 	/* ---------------------------------------------- */
 
 	#slide5{
@@ -960,8 +970,15 @@ textarea.form-control {
 		opacity: .5;
 	}
 
+	/* ---------------------------------------------- /*
+	 * Footer
+	/* ---------------------------------------------- */
+
 	#footer {
-		margin-top: 40px;
+		color: #C7C7C7;
+		background: #010A26;
+		background-size: cover;
+		padding-bottom: 10px;
 	}
 
 	#copyright {
@@ -1166,7 +1183,7 @@ textarea.form-control {
 		height: 280px;
 	}
 	/* ---------------------------------------------- /*
-	 * Footer
+	 * Skills
 	/* ---------------------------------------------- */
 
 	#slide5{
@@ -1235,9 +1252,17 @@ textarea.form-control {
 		margin: 20px auto;
 		opacity: .5;
 	}
+	
+	/* ---------------------------------------------- /*
+	 * Footer
+	/* ---------------------------------------------- */
 
 	#footer {
-		margin-top: 40px;
+		min-height: 40px;
+		color: #C7C7C7;
+		background: #010A26;
+		background-size: cover;
+		padding-bottom: 0;
 	}
 	
 	#copyright-text {
