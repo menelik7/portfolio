@@ -411,6 +411,7 @@ textarea.form-control {
 	color: #fff;
 	background: #010A26;
 	background-size: cover;
+	padding-bottom: 10px;
 }
 
 #social {
@@ -862,25 +863,6 @@ textarea.form-control {
 		overflow: hidden;
 	}
 
-	/*#portfolio-cards {
-		padding: 15px !important;
-		-webkit-box-shadow: none;
-		box-shadow: none;
-	}
-
-	.card-content {
-		padding-bottom: 10px;
-		-webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
-		box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
-	}
-	
-	.left {
-		font-size: 30px;
-	}
-	#card-div {
-		padding-bottom: 20px;
-	}*/
-
 	/* ---------------------------------------------- /*
 	 * Contact
 	/* ---------------------------------------------- */
@@ -998,7 +980,6 @@ textarea.form-control {
 		color: #C7C7C7;
 		background: #010A26;
 		background-size: cover;
-		padding-bottom: 10px;
 	}
 
 	#copyright {
@@ -1282,7 +1263,6 @@ textarea.form-control {
 		color: #C7C7C7;
 		background: #010A26;
 		background-size: cover;
-		padding-bottom: 0;
 	}
 	
 	#copyright-text {
@@ -1296,8 +1276,8 @@ textarea.form-control {
 	#copyright {
 		text-align: left;
 		font-size: .8em;
-		height: 20px;
-		padding: 10px 20px 0 22px;
+		height: 30px;
+		padding: 10px 20px 10px 22px;
 	}
 
 	#picture-credit {
