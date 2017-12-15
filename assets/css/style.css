@@ -161,12 +161,12 @@ li{ margin-top: 9px; float: left; padding-left: 21px }
 #slide2{
 	color: #010440;
 	margin: 0 auto;
-	padding: 100px 0 60px 0;
+	padding: 100px 0;
 }
 
-#about-me {
+#about {
 	text-align: center;
-	margin: 20px 0 50px 0;
+	margin: 20px 0;
 	display: block;
 	font-size: 30px;
 	font-weight: 800;
@@ -174,14 +174,14 @@ li{ margin-top: 9px; float: left; padding-left: 21px }
 	letter-spacing: 5px;
 }
 
-#story, #focus { min-height: 450px; font-size: 18px; padding-top: 40px }
+#story, #passion { min-height: 450px; font-size: 18px; padding-top: 40px }
 
 #story {
 	border-right: 1px solid #f5f5f5;
 }
 
 #story-logo,
-#focus-logo {
+#passion-logo {
 	height: 120px;
 	text-align: center;
 }
@@ -189,6 +189,11 @@ li{ margin-top: 9px; float: left; padding-left: 21px }
 .fa-address-card-o, .fa-file-code-o {
 	color: #FF530D;
 	font-size: 60px;
+}
+
+#story-para,
+#passion-para {
+	min-height: 250px;
 }
 
 #about-hr {
@@ -202,7 +207,6 @@ li{ margin-top: 9px; float: left; padding-left: 21px }
 
 #filler-pic1 {
 	position: relative;
-	bottom: -40px;
 	height: 350px;
 	margin: 0 -15px;
 	background: url("../img/dustin-lee-19667.jpg") no-repeat center top; 
@@ -525,7 +529,7 @@ textarea.form-control {
 		padding: 80px 0;
 	}
 	
-	#about-me {
+	#about {
 		text-align: center;
 		margin-top: 20px;
 		margin-bottom: 20px;
@@ -536,7 +540,7 @@ textarea.form-control {
 		letter-spacing: 5px;
 	}
 
-	#story, #focus { min-height: 350px; font-size: 18px; padding-top: 40px }
+	#story, #passion { min-height: 350px; font-size: 18px; padding-top: 40px }
 	#story {
 		border-right: none;
 	}
@@ -546,8 +550,13 @@ textarea.form-control {
 	}
 
 	#story-logo,
-	#focus-logo {
+	#passion-logo {
 		text-align: center;
+	}
+	
+	#story-para,
+	#passion-para {
+		min-height: 350px;
 	}
 
 	.material-icons {
@@ -781,7 +790,7 @@ textarea.form-control {
 		padding: 100px 0 0 0;
 	}
 	
-	#about-me {
+	#about {
 		text-align: center;
 		display: block;
 		font-size: 30px;
@@ -790,21 +799,19 @@ textarea.form-control {
 		letter-spacing: 5px;
 	}
 
-	#story, #focus { min-height: 350px; font-size: 18px; padding-top: 0 }
+	#story, #passion { min-height: 350px; font-size: 18px; padding-top: 0 }
 	#story {
 		border-right: none;
 	}
 
 	#story-logo,
-	#focus-logo {
+	#passion-logo {
 		text-align: center;
 	}
-
-	#story-para {
-		border: 1px solid #f5f5f5;
-	}
-
-	#focus-para {
+	
+	#story-para,
+	#passion-para {
+		min-height: auto;
 		border: 1px solid #f5f5f5;
 	}
 
@@ -1086,7 +1093,7 @@ textarea.form-control {
 		padding: 140px 0 0 0;
 	}
 	
-	#about-me {
+	#about {
 		text-align: center;
 		margin-bottom: 20px;
 		margin-top: 0;
@@ -1097,14 +1104,22 @@ textarea.form-control {
 		letter-spacing: 5px;
 	}
 
-	#story, #focus { min-height: 350px; font-size: 18px; padding-top: 20px }
+	#story, #passion { min-height: 350px; font-size: 18px; padding-top: 20px }
 	#story {
 		border-right: none;
 	}
 
 	#story-logo,
-	#focus-logo {
+	#passion-logo {
 		text-align: center;
+	}
+	
+	/* ---------------------------------------------- /*
+	 * Filler Picture 1
+	/* ---------------------------------------------- */
+
+	#filler-pic1 {
+		bottom: -50px;
 	}
 
 	/* ---------------------------------------------- /*
