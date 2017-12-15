@@ -421,7 +421,7 @@ textarea.form-control {
 #social {
 	min-height: 68px;
 	display: flex;
-	align-self: center;
+	align-items: center;
 	justify-content: center;
 	margin-bottom: 30px;
 }
@@ -435,6 +435,7 @@ textarea.form-control {
 }
 
 #social-icons {
+	font-size: 30px;
 	color: #fff;
 }
 
@@ -987,6 +988,10 @@ textarea.form-control {
 		color: #C7C7C7;
 		background: #010A26;
 		background-size: cover;
+	}
+	
+	#social-icons {
+		font-size: 24px;
 	}
 
 	#copyright {
