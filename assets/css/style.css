@@ -331,7 +331,7 @@ textarea.form-control {
 #slide5{
 	color: #fff;
 	background: #010A26;
-	padding: 110px 0 20px 0;
+	padding: 110px 0 0 0;
 	background-size: cover;
 	margin-bottom: 0;
 }
@@ -411,6 +411,26 @@ textarea.form-control {
 	color: #fff;
 	background: #010A26;
 	background-size: cover;
+}
+
+#social {
+	min-height: 68px;
+	display: flex;
+	align-self: center;
+	justify-content: center;
+	margin-bottom: 0;
+}
+
+#social ul {
+	padding-left: 0;
+}
+
+#social ul li:first-child {
+	padding-left: 0;
+}
+
+#social-icons {
+	color: #fff;
 }
 
 #copyright {
@@ -599,7 +619,7 @@ textarea.form-control {
 	/* ---------------------------------------------- */
 
 	#slide5{
-		padding: 80px 0;
+		padding: 80px 0 0 0;
 	}
 	
 	#tools,
@@ -907,7 +927,7 @@ textarea.form-control {
 	/* ---------------------------------------------- */
 
 	#slide5{
-		padding: 100px 0 20px 0;
+		padding: 100px 0 0 0;
 	}
 	
 	#tools,
@@ -1045,7 +1065,7 @@ textarea.form-control {
 	ul { list-style: none; padding: 0 }
 	li:first-child { padding: 0 }
 
-	li{ margin-top: 9px; float: left; padding-left: 21px }
+	li{ margin-top: 10px; float: left; padding-left: 21px }
 
 	#navbar li a { color: #010440; font-size: 16px; text-decoration: none}
 	#navbar li a.active { color: #FF530D; opacity:1}
@@ -1187,7 +1207,7 @@ textarea.form-control {
 	/* ---------------------------------------------- */
 
 	#slide5{
-		padding: 140px 0 20px 0;
+		padding: 140px 0 0 0;
 	}
 	
 	#tools,
@@ -1258,7 +1278,7 @@ textarea.form-control {
 	/* ---------------------------------------------- */
 
 	#footer {
-		min-height: 40px;
+		min-height: 100px;
 		color: #C7C7C7;
 		background: #010A26;
 		background-size: cover;
@@ -1277,12 +1297,11 @@ textarea.form-control {
 		text-align: left;
 		font-size: .8em;
 		height: 20px;
-		padding: 0 20px 0 22px;
+		padding: 10px 20px 0 22px;
 	}
 
 	#picture-credit {
 		font-size: .8em;
-		height: 20px;
 		display: inline-flex;
 		align-items: center;
 		padding-left: 20px;
