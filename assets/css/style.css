@@ -439,6 +439,14 @@ textarea.form-control {
 	color: #fff;
 }
 
+.fa-stack-overflow {
+	margin-top: -2px;
+}
+
+.fa-twitter {
+	padding-top: 2px;
+}
+
 #copyright {
 	height: 30px;
 	text-align: right;
@@ -985,7 +993,7 @@ textarea.form-control {
 	/* ---------------------------------------------- */
 
 	#footer {
-		color: #C7C7C7;
+		color: #fff;
 		background: #010A26;
 		background-size: cover;
 	}
@@ -1280,7 +1288,7 @@ textarea.form-control {
 
 	#footer {
 		min-height: 100px;
-		color: #C7C7C7;
+		color: #fff;
 		background: #010A26;
 		background-size: cover;
 	}
@@ -1297,7 +1305,7 @@ textarea.form-control {
 		text-align: left;
 		font-size: .8em;
 		height: 30px;
-		padding: 10px 20px 10px 22px;
+		padding: 10px 10px 10px 22px;
 	}
 
 	#picture-credit {
