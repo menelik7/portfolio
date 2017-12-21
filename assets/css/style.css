@@ -46,9 +46,9 @@ ul { list-style: none }
 
 li{ margin-top: 9px; float: left; padding-left: 21px }
 
-#navbar li a { color: #010440; font-size: 18px; text-decoration: none}
-#navbar li a.active { color: #FF530D; opacity:1}
-#navbar li a:hover { color: #FF530D; opacity:1; }
+#navbar li a { color: #010440; font-size: 18px; text-decoration: none }
+#navbar li a.active { color: #FF530D; opacity:1 }
+#navbar li a:hover { color: #FF530D; opacity:1 }
 
 
 /* ---------------------------------------------- /*
@@ -161,7 +161,7 @@ li{ margin-top: 9px; float: left; padding-left: 21px }
 #slide2{
 	color: #010440;
 	margin: 0 auto;
-	padding: 100px 0;
+	padding: 80px 0;
 }
 
 #about {
@@ -222,7 +222,7 @@ li{ margin-top: 9px; float: left; padding-left: 21px }
 
 #slide3{
 	color: #010440;
-	padding: 100px 0;
+	padding: 80px 0;
 }
 
 #project {
@@ -267,7 +267,7 @@ li{ margin-top: 9px; float: left; padding-left: 21px }
 #slide4{
 	background-color: #f5f5f5;
 	color: #010440;
-	padding: 100px 20px 0 20px;
+	padding: 80px 20px 0 20px;
 	margin-bottom: 0;
 }
 
@@ -336,7 +336,7 @@ textarea.form-control {
 #slide5{
 	color: #fff;
 	background: #010A26;
-	padding: 110px 0 0 0;
+	padding: 90px 0 0 0;
 	background-size: cover;
 	margin-bottom: 0;
 }
@@ -437,7 +437,7 @@ textarea.form-control {
 
 #social-icons {
 	font-size: 30px;
-	color: #fff;
+	color: #aab3b6;
 }
 
 .fa-stack-overflow {
