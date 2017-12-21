@@ -287,7 +287,7 @@ li{ margin-top: 9px; float: left; padding-left: 21px }
 
 #chat-hr {
 	width: 100px;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 #chat-row {
@@ -299,6 +299,7 @@ li{ margin-top: 9px; float: left; padding-left: 21px }
 #name, #email, #message { color: #010440; }
 textarea.form-control {
 	height: 300px;
+	resize: none;
 }
 
 .btn-lg, .btn-group-lg > .btn {
