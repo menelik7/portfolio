@@ -771,17 +771,19 @@ textarea.form-control {
 	#intro {
 		font-size: 3em;
 		margin-top: 20px;
-		margin-bottom: 40px;
+		margin-bottom: 0;
 	}
 
 	#job-title {
 		font-size: 1.5em;
+		margin-bottom: 10px;
+		margin-top: 10px;
 	}
 
 	#availability {
 		padding-top: 0;
 		font-size: .8em;
-		margin-top: 20px;
+		margin-top: 0;
 		margin-bottom: 20px;
 	}
 	
