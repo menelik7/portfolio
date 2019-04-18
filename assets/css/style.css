@@ -1,13 +1,19 @@
 /* ---------------------------------------------- /*
  * Global
 /* ---------------------------------------------- */
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,500,700,800);
+@import url(
+	https://fonts.googleapis.com/css?family=Raleway:400,
+	300,
+	500,
+	700,
+	800
+);
 
-body{
+body {
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	font-family: 'Raleway', sans-serif;
+	font-family: "Raleway", sans-serif;
 }
 
 p {
@@ -25,38 +31,72 @@ p {
 	background: #fff;
 	height: 80px;
 	position: fixed;
-	z-index:100;
+	z-index: 100;
 	border-bottom: 1px solid #f5f5f5;
 }
 
 #logo1 {
-	color: #FF530D !important;
-	font-family: 'Princess Sofia', cursive;
+	color: #ff530d !important;
+	font-family: "Princess Sofia", cursive;
 	text-align: center;
 	margin-right: 20px;
 	font-weight: bold;
 }
 
-#logo, #navbar { height: 100% }
-#logo { padding-top: 5px; padding-left: 100px; display: flex; justify-content: start; align-items: center; font-size: 1.2em}
-#navbar { padding-right: 100px; display: flex; justify-content: flex-end; align-items: center }
-#logo a { color: #010440; text-decoration: none; font-size: 30px }
+#logo,
+#navbar {
+	height: 100%;
+}
+#logo {
+	padding-top: 5px;
+	padding-left: 100px;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	font-size: 1.2em;
+}
+#navbar {
+	padding-right: 100px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+#logo a {
+	color: #010440;
+	text-decoration: none;
+	font-size: 30px;
+}
 
-ul { list-style: none }
+ul {
+	list-style: none;
+}
 
-li{ margin-top: 9px; float: left; padding-left: 21px }
+li {
+	margin-top: 9px;
+	float: left;
+	padding-left: 21px;
+}
 
-#navbar li a { color: #010440; font-size: 18px; text-decoration: none }
-#navbar li a.active { color: #FF530D; opacity:1 }
-#navbar li a:hover { color: #FF530D; opacity:1 }
-
+#navbar li a {
+	color: #010440;
+	font-size: 18px;
+	text-decoration: none;
+}
+#navbar li a.active {
+	color: #ff530d;
+	opacity: 1;
+}
+#navbar li a:hover {
+	color: #ff530d;
+	opacity: 1;
+}
 
 /* ---------------------------------------------- /*
  * Landing Page
 /* ---------------------------------------------- */
 
 #slide1 {
-	background: url("../img/slide1.jpg") no-repeat center center; 
+	background: url("../img/slide1.jpg") no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -65,7 +105,7 @@ li{ margin-top: 9px; float: left; padding-left: 21px }
 }
 
 #overlay {
-	background:url('../img/pattern.png');
+	background: url("../img/pattern.png");
 	height: 100vh;
 	display: flex;
 	justify-content: center;
@@ -85,13 +125,16 @@ li{ margin-top: 9px; float: left; padding-left: 21px }
 
 #initial {
 	margin-left: 10px;
-	font-family: 'Princess Sofia', cursive;
+	font-family: "Princess Sofia", cursive;
 	font-size: 1.2em;
 	color: #010440;
-	font-weight: 800;	
+	font-weight: 800;
 }
 
-#hi, #im {margin-right: 20px}
+#hi,
+#im {
+	margin-right: 20px;
+}
 
 #job-title {
 	font-size: 2em;
@@ -101,7 +144,7 @@ li{ margin-top: 9px; float: left; padding-left: 21px }
 #availability {
 	font-size: 1em;
 	margin-top: 20px;
-	color: #f5f5f5
+	color: #f5f5f5;
 }
 
 .fa {
@@ -123,13 +166,13 @@ li{ margin-top: 9px; float: left; padding-left: 21px }
 	margin-left: -15px;
 	display: block;
 	z-index: 10;
-    text-align: center;
+	text-align: center;
 }
 
-#intro-scroll span{
-    position: relative;
-    color: #fff;
-    -webkit-animation-name: drop;
+#intro-scroll span {
+	position: relative;
+	color: #fff;
+	-webkit-animation-name: drop;
 	-webkit-animation-duration: 1s;
 	-webkit-animation-timing-function: linear;
 	-webkit-animation-delay: 0s;
@@ -143,22 +186,40 @@ li{ margin-top: 9px; float: left; padding-left: 21px }
 	animation-play-state: running;
 }
 
-@-webkit-keyframes drop	{
-	0%   { top:0px;  opacity: 0;}
-	30%  { top:10px; opacity: 1;}
-	100% { top:25px; opacity: 0;}
+@-webkit-keyframes drop {
+	0% {
+		top: 0px;
+		opacity: 0;
+	}
+	30% {
+		top: 10px;
+		opacity: 1;
+	}
+	100% {
+		top: 25px;
+		opacity: 0;
+	}
 }
 
-@keyframes drop	{
-	0%   { top:0px;  opacity: 0;}
-	30%  { top:10px; opacity: 1;}
-	100% { top:25px; opacity: 0;}
+@keyframes drop {
+	0% {
+		top: 0px;
+		opacity: 0;
+	}
+	30% {
+		top: 10px;
+		opacity: 1;
+	}
+	100% {
+		top: 25px;
+		opacity: 0;
+	}
 }
 /* ---------------------------------------------- /*
  * About
 /* ---------------------------------------------- */
 
-#slide2{
+#slide2 {
 	color: #010440;
 	margin: 0 auto;
 	padding: 80px 0;
@@ -170,11 +231,16 @@ li{ margin-top: 9px; float: left; padding-left: 21px }
 	display: block;
 	font-size: 30px;
 	font-weight: 800;
-	font-family: 'Raleway', sans-serif;
+	font-family: "Raleway", sans-serif;
 	letter-spacing: 5px;
 }
 
-#story, #passion { min-height: 450px; font-size: 18px; padding-top: 40px }
+#story,
+#passion {
+	min-height: 450px;
+	font-size: 18px;
+	padding-top: 40px;
+}
 
 #story {
 	border-right: 1px solid #f5f5f5;
@@ -186,8 +252,9 @@ li{ margin-top: 9px; float: left; padding-left: 21px }
 	text-align: center;
 }
 
-.fa-address-card-o, .fa-file-code-o {
-	color: #FF530D;
+.fa-address-card-o,
+.fa-file-code-o {
+	color: #ff530d;
 	font-size: 60px;
 }
 
@@ -209,7 +276,7 @@ li{ margin-top: 9px; float: left; padding-left: 21px }
 	position: relative;
 	height: 350px;
 	margin: 0 -15px;
-	background: url("../img/dustin-lee-19667.jpg") no-repeat center top; 
+	background: url("../img/dustin-lee-19667.jpg") no-repeat center top;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -217,10 +284,10 @@ li{ margin-top: 9px; float: left; padding-left: 21px }
 }
 
 /* ---------------------------------------------- /*
- * Porfolio
+ * Portfolio
 /* ---------------------------------------------- */
 
-#slide3{
+#slide3 {
 	color: #010440;
 	padding: 80px 0;
 }
@@ -231,7 +298,7 @@ li{ margin-top: 9px; float: left; padding-left: 21px }
 	display: block;
 	font-size: 30px;
 	font-weight: 800;
-	font-family: 'Raleway', sans-serif;
+	font-family: "Raleway", sans-serif;
 	letter-spacing: 5px;
 }
 
@@ -246,7 +313,7 @@ li{ margin-top: 9px; float: left; padding-left: 21px }
 	font-size: 60px;
 	margin-left: 20px;
 	margin-top: -10px;
-	color: #FF530D;
+	color: #ff530d;
 }
 
 #project-hr {
@@ -254,17 +321,62 @@ li{ margin-top: 9px; float: left; padding-left: 21px }
 	margin-bottom: 40px;
 }
 
-#myCarousel {
-	height: 450px;
-	overflow: hidden;
+.card {
+	margin: 40px auto;
 }
 
+.card-content {
+	background: #263d62;
+	padding-bottom: 30px !important;
+}
+
+.card-content i,
+.card-content p {
+	color: #fff !important;
+}
+
+.card-content p {
+	padding: 0 20px 20px 0;
+	text-align: left;
+}
+
+.card-title {
+	color: #fff;
+	font-weight: bold !important;
+}
+
+#explore {
+	font-size: 30px;
+	margin: 10px 0;
+}
+
+.card-reveal .card-title {
+	color: #263d62 !important;
+}
+
+.card-reveal ul li {
+	padding: 0;
+}
+
+/* ---------------------------------------------- /*
+ * Filler Picture 2
+/* ---------------------------------------------- */
+
+#filler-pic2 {
+	height: 300px;
+	margin: 0 -15px;
+	background: url("../img/chat.jpg") no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
 
 /* ---------------------------------------------- /*
  * Contact
 /* ---------------------------------------------- */
 
-#slide4{
+#slide4 {
 	background-color: #f5f5f5;
 	color: #010440;
 	padding: 80px 20px 0 20px;
@@ -277,7 +389,7 @@ li{ margin-top: 9px; float: left; padding-left: 21px }
 	display: block;
 	font-size: 30px;
 	font-weight: 800;
-	font-family: 'Raleway', sans-serif;
+	font-family: "Raleway", sans-serif;
 	letter-spacing: 5px;
 }
 
@@ -296,33 +408,38 @@ li{ margin-top: 9px; float: left; padding-left: 21px }
 	align-items: center;
 }
 
-#name, #email, #message { color: #010440; }
+#name,
+#email,
+#message {
+	color: #010440;
+}
 textarea.form-control {
 	height: 300px;
 	resize: none;
 }
 
-.btn-lg, .btn-group-lg > .btn {
-    padding: 10px 25px;
-    font-size: 13px;
-    background: #010440;
-    color: #fff;
+.btn-lg,
+.btn-group-lg > .btn {
+	padding: 10px 25px;
+	font-size: 13px;
+	background: #010440;
+	color: #fff;
 }
 
 #send:hover {
 	color: #fff;
 	font-weight: bold;
-	background: #FF530D;
+	background: #ff530d;
 }
 
 /* ---------------------------------------------- /*
- * Filler Picture 2
+ * Filler Picture 3
 /* ---------------------------------------------- */
 
-#filler-pic2 {
+#filler-pic3 {
 	height: 600px;
 	margin: 0 -15px;
-	background: url("../img/chris-karidis-313612.jpg") no-repeat center center; 
+	background: url("../img/chris-karidis-313612.jpg") no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -333,9 +450,9 @@ textarea.form-control {
  * Skills
 /* ---------------------------------------------- */
 
-#slide5{
+#slide5 {
 	color: #fff;
-	background: #010A26;
+	background: #010a26;
 	padding: 90px 0 0 0;
 	background-size: cover;
 	margin-bottom: 0;
@@ -343,14 +460,14 @@ textarea.form-control {
 
 #tools,
 #skills {
-	color: #FF530D;
+	color: #ff530d;
 	text-align: center;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	display: block;
 	font-size: 30px;
 	font-weight: 800;
-	font-family: 'Raleway', sans-serif;
+	font-family: "Raleway", sans-serif;
 	letter-spacing: 5px;
 }
 
@@ -370,17 +487,17 @@ textarea.form-control {
 	margin: 20px 0 100px 0;
 }
 .chart {
-    display: inline-block;
-    height: 140px;
-    margin: 30px 0;
-    position: relative;
-    text-align: center;
-    width: 140px;
+	display: inline-block;
+	height: 140px;
+	margin: 30px 0;
+	position: relative;
+	text-align: center;
+	width: 140px;
 }
 .chart canvas {
-    left: 0;
-    position: absolute;
-    top: 0;
+	left: 0;
+	position: absolute;
+	top: 0;
 }
 
 .text-center {
@@ -389,23 +506,23 @@ textarea.form-control {
 }
 
 .percent {
-    display: inline-block;
-    font-size: 25px;
-    font-weight: 300;
-    line-height: 140px;
-    z-index: 2;
+	display: inline-block;
+	font-size: 25px;
+	font-weight: 300;
+	line-height: 140px;
+	z-index: 2;
 }
 .percent:after {
-    content: "%";
-    font-size: 50%;
-    margin-left: 0.1em;
+	content: "%";
+	font-size: 50%;
+	margin-left: 0.1em;
 }
 
 #tools-hr,
 #skills-hr {
 	width: 50px;
 	margin: 20px auto;
-	opacity: .5;
+	opacity: 0.5;
 }
 
 /* ---------------------------------------------- /*
@@ -414,7 +531,7 @@ textarea.form-control {
 
 #footer {
 	color: #fff;
-	background: #010A26;
+	background: #010a26;
 	background-size: cover;
 	padding-bottom: 10px;
 }
@@ -451,7 +568,7 @@ textarea.form-control {
 #copyright {
 	height: 30px;
 	text-align: right;
-	border-right: 1px solid #FF530D;
+	border-right: 1px solid #ff530d;
 	padding: 3px 20px;
 }
 
@@ -463,17 +580,13 @@ textarea.form-control {
 	height: 30px;
 }
 
-
 /*******************************************Media Queries************************************************/
-
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 1124px) {
-
 	/* ---------------------------------------------- /*
 	 * Global
 	/* ---------------------------------------------- */
-	
 
 	/* ---------------------------------------------- /*
 	 * Header
@@ -485,24 +598,57 @@ textarea.form-control {
 		margin-right: 10px;
 	}
 
-	#logo, #navbar { height: 100% }
-	#logo { padding: 0 0 0 50px; display: flex; justify-content: flex-start; align-items: center }
-	#navbar { padding: 5px 50px 5px 0; display: flex; justify-content: flex-end; align-items: center }
-	#logo a { color: #010440; text-decoration: none; font-size: 30px }
+	#logo,
+	#navbar {
+		height: 100%;
+	}
+	#logo {
+		padding: 0 0 0 50px;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	}
+	#navbar {
+		padding: 5px 50px 5px 0;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+	#logo a {
+		color: #010440;
+		text-decoration: none;
+		font-size: 30px;
+	}
 
-	ul { list-style: none; padding-left: 0 }
+	ul {
+		list-style: none;
+		padding-left: 0;
+	}
 
-	li{ margin-top: 9px; float: left; padding-left: 21px }
+	li {
+		margin-top: 9px;
+		float: left;
+		padding-left: 21px;
+	}
 
-	#navbar li a { color: #010440; font-size: 16px; text-decoration: none}
-	#navbar li a.active { color: #FF530D; opacity:1}
-	#navbar li a:hover { color: #FF530D; opacity:1; }
-
+	#navbar li a {
+		color: #010440;
+		font-size: 16px;
+		text-decoration: none;
+	}
+	#navbar li a.active {
+		color: #ff530d;
+		opacity: 1;
+	}
+	#navbar li a:hover {
+		color: #ff530d;
+		opacity: 1;
+	}
 
 	/* ---------------------------------------------- /*
 	 * Landing Page
 	/* ---------------------------------------------- */
-	
+
 	#intro-container {
 		margin-top: -100px;
 	}
@@ -523,7 +669,7 @@ textarea.form-control {
 		margin-top: 100px;
 		margin-bottom: -100px;
 	}
-	
+
 	#intro-scroll {
 		margin-bottom: 50px;
 	}
@@ -532,13 +678,13 @@ textarea.form-control {
 	 * About
 	/* ---------------------------------------------- */
 
-	#slide2{
+	#slide2 {
 		background-color: #fff;
 		color: #010440;
 		margin: 0 auto;
 		padding: 80px 0;
 	}
-	
+
 	#about {
 		text-align: center;
 		margin-top: 20px;
@@ -546,11 +692,16 @@ textarea.form-control {
 		display: block;
 		font-size: 30px;
 		font-weight: 800;
-		font-family: 'Raleway', sans-serif;
+		font-family: "Raleway", sans-serif;
 		letter-spacing: 5px;
 	}
 
-	#story, #passion { min-height: 350px; font-size: 18px; padding-top: 40px }
+	#story,
+	#passion {
+		min-height: 350px;
+		font-size: 18px;
+		padding-top: 40px;
+	}
 	#story {
 		border-right: none;
 	}
@@ -563,7 +714,7 @@ textarea.form-control {
 	#passion-logo {
 		text-align: center;
 	}
-	
+
 	#story-para,
 	#passion-para {
 		min-height: 350px;
@@ -581,7 +732,7 @@ textarea.form-control {
 	 * Porfolio
 	/* ---------------------------------------------- */
 
-	#slide3{
+	#slide3 {
 		color: #010440;
 		padding: 80px 0;
 		background-size: cover;
@@ -594,31 +745,20 @@ textarea.form-control {
 		display: block;
 		font-size: 30px;
 		font-weight: 800;
-		font-family: 'Raleway', sans-serif;
+		font-family: "Raleway", sans-serif;
 		letter-spacing: 5px;
 	}
-
-	/*#portfolio-cards {
-		padding: 0;
-		margin-right: 50px;
-		margin-bottom: 30px;
-		border: 0;
-	}
-
-	#card-div {
-		padding-bottom: 20px;
-	}*/
 
 	/* ---------------------------------------------- /*
 	 * Contact
 	/* ---------------------------------------------- */
 
-	#slide4{
+	#slide4 {
 		background-color: #f5f5f5;
 		color: #010440;
 		padding: 80px 0;
 	}
-	
+
 	#contact {
 		text-align: center;
 		margin-top: 20px;
@@ -626,7 +766,7 @@ textarea.form-control {
 		display: block;
 		font-size: 30px;
 		font-weight: 800;
-		font-family: 'Raleway', sans-serif;
+		font-family: "Raleway", sans-serif;
 		letter-spacing: 5px;
 	}
 
@@ -638,10 +778,10 @@ textarea.form-control {
 	 * Skills
 	/* ---------------------------------------------- */
 
-	#slide5{
+	#slide5 {
 		padding: 80px 0 0 0;
 	}
-	
+
 	#tools,
 	#skills {
 		text-align: center;
@@ -650,10 +790,10 @@ textarea.form-control {
 		display: block;
 		font-size: 30px;
 		font-weight: 800;
-		font-family: 'Raleway', sans-serif;
+		font-family: "Raleway", sans-serif;
 		letter-spacing: 5px;
 	}
-	
+
 	#skills {
 		margin-bottom: 0;
 	}
@@ -666,17 +806,17 @@ textarea.form-control {
 	}
 
 	.chart {
-	    display: inline-block;
-	    height: 140px;
-	    margin: 30px 0;
-	    position: relative;
-	    text-align: center;
-	    width: 140px;
+		display: inline-block;
+		height: 140px;
+		margin: 30px 0;
+		position: relative;
+		text-align: center;
+		width: 140px;
 	}
 	.chart canvas {
-	    left: 0;
-	    position: absolute;
-	    top: 0;
+		left: 0;
+		position: absolute;
+		top: 0;
 	}
 
 	.text-center {
@@ -685,33 +825,33 @@ textarea.form-control {
 	}
 
 	.percent {
-	    display: inline-block;
-	    font-size: 25px;
-	    font-weight: 300;
-	    line-height: 140px;
-	    z-index: 2;
+		display: inline-block;
+		font-size: 25px;
+		font-weight: 300;
+		line-height: 140px;
+		z-index: 2;
 	}
 	.percent:after {
-	    content: "%";
-	    font-size: 50%;
-	    margin-left: 0.1em;
+		content: "%";
+		font-size: 50%;
+		margin-left: 0.1em;
 	}
-	
+
 	#tools-hr,
 	#skills-hr {
-		color: #FF530D;
+		color: #ff530d;
 		width: 50px;
 		margin: 20px auto;
-		opacity: .5;
+		opacity: 0.5;
 	}
-	
+
 	/* ---------------------------------------------- /*
 	 * Footer
 	/* ---------------------------------------------- */
 
 	#footer {
-		color: #C7C7C7;
-		background: #010A26;
+		color: #c7c7c7;
+		background: #010a26;
 		background-size: cover;
 	}
 
@@ -723,47 +863,78 @@ textarea.form-control {
 
 	#picture-credit {
 		height: 30px;
-	}  
-
+	}
 }
-
 
 /* Small devices (landscape phones, less than 769px)*/
 @media (max-width: 768px) {
-	
 	/* ---------------------------------------------- /*
 	 * Global
 	/* ---------------------------------------------- */
-	
 
 	/* ---------------------------------------------- /*
 	 * Header
 	/* ---------------------------------------------- */
 
 	#logo1 {
-		font-size: .8em;
+		font-size: 0.8em;
 		text-align: center;
 		margin-right: 10px;
 	}
 
-	#logo, #navbar { height: 100% }
-	#logo { padding: 0 0 0 1px; margin-left: 40px; margin-right: -80px; display: flex; justify-content: flex-start; align-items: center }
-	#navbar { padding: 13px 1px 10px 0; display: flex; justify-content: flex-end; align-items: center }
-	#logo a { color: #010440; text-decoration: none; font-size: 22px }
+	#logo,
+	#navbar {
+		height: 100%;
+	}
+	#logo {
+		padding: 0 0 0 1px;
+		margin-left: 40px;
+		margin-right: -80px;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	}
+	#navbar {
+		padding: 13px 1px 10px 0;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+	#logo a {
+		color: #010440;
+		text-decoration: none;
+		font-size: 22px;
+	}
 
-	ul { list-style: none; padding-left: 0 }
+	ul {
+		list-style: none;
+		padding-left: 0;
+	}
 
-	li{ margin-top: 9px; float: left; padding-left: 21px }
+	li {
+		margin-top: 9px;
+		float: left;
+		padding-left: 21px;
+	}
 
-	#navbar li a { color: #010440; font-size: 14px; text-decoration: none}
-	#navbar li a.active { color: #FF530D; opacity:1}
-	#navbar li a:hover { color: #FF530D; opacity:1; }
-
+	#navbar li a {
+		color: #010440;
+		font-size: 14px;
+		text-decoration: none;
+	}
+	#navbar li a.active {
+		color: #ff530d;
+		opacity: 1;
+	}
+	#navbar li a:hover {
+		color: #ff530d;
+		opacity: 1;
+	}
 
 	/* ---------------------------------------------- /*
 	 * Landing Page
 	/* ---------------------------------------------- */
-	
+
 	#intro-container {
 		margin-top: 0;
 	}
@@ -782,11 +953,11 @@ textarea.form-control {
 
 	#availability {
 		padding-top: 0;
-		font-size: .8em;
+		font-size: 0.8em;
 		margin-top: 0;
 		margin-bottom: 20px;
 	}
-	
+
 	#intro-scroll {
 		margin-bottom: 0;
 	}
@@ -795,23 +966,28 @@ textarea.form-control {
 	 * About
 	/* ---------------------------------------------- */
 
-	#slide2{
+	#slide2 {
 		background-color: #fff;
 		color: #010440;
 		margin: 0 auto;
 		padding: 100px 0 0 0;
 	}
-	
+
 	#about {
 		text-align: center;
 		display: block;
 		font-size: 30px;
 		font-weight: 800;
-		font-family: 'Raleway', sans-serif;
+		font-family: "Raleway", sans-serif;
 		letter-spacing: 5px;
 	}
 
-	#story, #passion { min-height: 350px; font-size: 18px; padding-top: 0 }
+	#story,
+	#passion {
+		min-height: 350px;
+		font-size: 18px;
+		padding-top: 0;
+	}
 	#story {
 		border-right: none;
 	}
@@ -820,7 +996,7 @@ textarea.form-control {
 	#passion-logo {
 		text-align: center;
 	}
-	
+
 	#story-para,
 	#passion-para {
 		min-height: auto;
@@ -840,7 +1016,7 @@ textarea.form-control {
 		bottom: -40px;
 		height: 300px;
 		margin: 0 -15px;
-		background: url("../img/dustin-lee-19667.jpg") no-repeat center center; 
+		background: url("../img/dustin-lee-19667.jpg") no-repeat center center;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -851,53 +1027,68 @@ textarea.form-control {
 	 * Porfolio
 	/* ---------------------------------------------- */
 
-	#slide3{
+	#slide3 {
 		background-color: #fff;
 		color: #010440;
 		padding: 120px 0 100px 0;
 		background-size: cover;
 	}
-	
+
 	#project {
 		font-size: 2em;
 		margin-top: 20px;
 		text-align: center;
-		margin-top: 0;	
+		margin-top: 0;
 	}
-	
+
 	#outcome-icon1 {
 		vertical-align: middle;
 		font-size: 60px;
 		margin-left: 20px;
 		margin-top: -10px;
-		color: #FF530D;
+		color: #ff530d;
 	}
 
 	#project-hr {
 		margin-bottom: 30px;
 	}
-	
+
 	#myCarousel {
 		height: auto;
 		overflow: hidden;
 	}
 
 	/* ---------------------------------------------- /*
+	 * Filler Picture 2
+	/* ---------------------------------------------- */
+
+	#filler-pic2 {
+		height: 400px;
+		margin: 0 -15px;
+		margin-bottom: -100px;
+		background: url("../img/chat.jpg") no-repeat center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+	/* ---------------------------------------------- /*
 	 * Contact
 	/* ---------------------------------------------- */
 
-	#slide4{
+	#slide4 {
 		background-color: #f5f5f5;
 		color: #010440;
 		padding: 100px 0 0 0;
 	}
-	
+
 	#contact {
 		text-align: center;
 		display: block;
 		font-size: 2em;
 		font-weight: 800;
-		font-family: 'Raleway', sans-serif;
+		font-family: "Raleway", sans-serif;
 		letter-spacing: 5px;
 	}
 
@@ -910,13 +1101,14 @@ textarea.form-control {
 	}
 
 	/* ---------------------------------------------- /*
-	 * Filler Picture 2
+	 * Filler Picture 3
 	/* ---------------------------------------------- */
 
-	#filler-pic2 {
+	#filler-pic3 {
 		height: 300px;
 		margin: 0 -15px;
-		background: url("../img/chris-karidis-313612.jpg") no-repeat center center; 
+		background: url("../img/chris-karidis-313612.jpg") no-repeat center
+			center;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -927,20 +1119,20 @@ textarea.form-control {
 	 * Skills
 	/* ---------------------------------------------- */
 
-	#slide5{
+	#slide5 {
 		padding: 100px 0 0 0;
 	}
-	
+
 	#tools,
 	#skills {
 		text-align: center;
 		display: block;
 		font-size: 30px;
 		font-weight: 800;
-		font-family: 'Raleway', sans-serif;
+		font-family: "Raleway", sans-serif;
 		letter-spacing: 5px;
 	}
-	
+
 	#skills {
 		margin-bottom: 0;
 	}
@@ -953,17 +1145,17 @@ textarea.form-control {
 	}
 
 	.chart {
-	    display: inline-block;
-	    height: 140px;
-	    margin: 30px 0;
-	    position: relative;
-	    text-align: center;
-	    width: 140px;
+		display: inline-block;
+		height: 140px;
+		margin: 30px 0;
+		position: relative;
+		text-align: center;
+		width: 140px;
 	}
 	.chart canvas {
-	    left: 0;
-	    position: absolute;
-	    top: 0;
+		left: 0;
+		position: absolute;
+		top: 0;
 	}
 
 	.text-center {
@@ -972,23 +1164,23 @@ textarea.form-control {
 	}
 
 	.percent {
-	    display: inline-block;
-	    font-size: 25px;
-	    font-weight: 300;
-	    line-height: 140px;
-	    z-index: 2;
+		display: inline-block;
+		font-size: 25px;
+		font-weight: 300;
+		line-height: 140px;
+		z-index: 2;
 	}
 	.percent:after {
-	    content: "%";
-	    font-size: 50%;
-	    margin-left: 0.1em;
+		content: "%";
+		font-size: 50%;
+		margin-left: 0.1em;
 	}
 	#tools-hr,
 	#skills-hr {
-		color: #FF530D;
+		color: #ff530d;
 		width: 50px;
 		margin: 20px auto;
-		opacity: .5;
+		opacity: 0.5;
 	}
 
 	/* ---------------------------------------------- /*
@@ -997,10 +1189,10 @@ textarea.form-control {
 
 	#footer {
 		color: #fff;
-		background: #010A26;
+		background: #010a26;
 		background-size: cover;
 	}
-	
+
 	#social-icons {
 		font-size: 24px;
 	}
@@ -1013,7 +1205,7 @@ textarea.form-control {
 		align-items: center;
 		justify-content: flex-end;
 	}
-	
+
 	#copyright-text {
 		margin-right: 4px;
 	}
@@ -1023,17 +1215,15 @@ textarea.form-control {
 		display: flex;
 		align-items: center;
 		padding-left: 20px;
-	} 
-	
+	}
+
 	#elena {
 		margin-right: 5px;
 	}
 }
 
-
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) {
-	
 	/* ---------------------------------------------- /*
 	 * Global
 	/* ---------------------------------------------- */
@@ -1044,7 +1234,7 @@ textarea.form-control {
 	#header {
 		height: 120px;
 		position: fixed;
-		z-index:100;
+		z-index: 100;
 		border-bottom: 1px solid #f5f5f5;
 	}
 	#intro {
@@ -1056,25 +1246,64 @@ textarea.form-control {
 		text-align: center;
 		margin-right: 8px;
 	}
-	
+
 	#initial {
-		margin-left: 0;	
+		margin-left: 0;
 	}
 
-	#logo, #navbar { height: 50%; padding: 0; display: flex; justify-content: center; align-items: center }
-	#logo { width: 100%; padding-top: 5px; margin-left: 0; margin-right: 0 }
-	#navbar { padding-bottom: 10px; width: 100%; background: #fff; border-bottom: 1px solid #f5f5f5 }
-	#logo a { color: #010440; text-decoration: none; font-size: 26px }
-	
-	ul { list-style: none; padding: 0 }
-	li:first-child { padding: 0 }
+	#logo,
+	#navbar {
+		height: 50%;
+		padding: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	#logo {
+		width: 100%;
+		padding-top: 5px;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	#navbar {
+		padding-bottom: 10px;
+		width: 100%;
+		background: #fff;
+		border-bottom: 1px solid #f5f5f5;
+	}
+	#logo a {
+		color: #010440;
+		text-decoration: none;
+		font-size: 26px;
+	}
 
-	li{ margin-top: 10px; float: left; padding-left: 21px }
+	ul {
+		list-style: none;
+		padding: 0;
+	}
+	li:first-child {
+		padding: 0;
+	}
 
-	#navbar li a { color: #010440; font-size: 16px; text-decoration: none}
-	#navbar li a.active { color: #FF530D; opacity:1}
-	#navbar li a:hover { color: #FF530D; opacity:1; }
+	li {
+		margin-top: 10px;
+		float: left;
+		padding-left: 21px;
+	}
 
+	#navbar li a {
+		color: #010440;
+		font-size: 16px;
+		text-decoration: none;
+	}
+	#navbar li a.active {
+		color: #ff530d;
+		opacity: 1;
+	}
+	#navbar li a:hover {
+		color: #ff530d;
+		opacity: 1;
+	}
 
 	/* ---------------------------------------------- /*
 	 * Landing Page
@@ -1091,9 +1320,9 @@ textarea.form-control {
 
 	#availability {
 		margin-top: 90px;
-		font-size: .7em;
+		font-size: 0.7em;
 	}
-	
+
 	#intro-scroll {
 		margin-bottom: 50px;
 	}
@@ -1102,13 +1331,13 @@ textarea.form-control {
 	 * About
 	/* ---------------------------------------------- */
 
-	#slide2{
+	#slide2 {
 		background-color: #fff;
 		color: #010440;
 		margin: 0 auto;
 		padding: 140px 0 0 0;
 	}
-	
+
 	#about {
 		text-align: center;
 		margin-bottom: 20px;
@@ -1116,11 +1345,16 @@ textarea.form-control {
 		display: block;
 		font-size: 30px;
 		font-weight: 800;
-		font-family: 'Raleway', sans-serif;
+		font-family: "Raleway", sans-serif;
 		letter-spacing: 5px;
 	}
 
-	#story, #passion { min-height: 350px; font-size: 18px; padding-top: 20px }
+	#story,
+	#passion {
+		min-height: 350px;
+		font-size: 18px;
+		padding-top: 20px;
+	}
 	#story {
 		border-right: none;
 	}
@@ -1129,7 +1363,7 @@ textarea.form-control {
 	#passion-logo {
 		text-align: center;
 	}
-	
+
 	/* ---------------------------------------------- /*
 	 * Filler Picture 1
 	/* ---------------------------------------------- */
@@ -1142,18 +1376,18 @@ textarea.form-control {
 	 * Porfolio
 	/* ---------------------------------------------- */
 
-	#slide3{
+	#slide3 {
 		background-color: #fff;
 		color: #010440;
 		padding: 140px 0 0 0;
 		background-size: cover;
 	}
-	
+
 	#project {
 		text-align: center;
 		margin-bottom: 20px;
 	}
-	
+
 	#outcome-icon1 {
 		display: none;
 	}
@@ -1167,26 +1401,26 @@ textarea.form-control {
 	#project-hr {
 		margin-bottom: 30px;
 	}
-	
+
 	#business_center {
 		vertical-align: middle;
 		font-size: 60px;
 		margin-left: 10px;
-		color: #FF530D;
+		color: #ff530d;
 	}
 
 	#portfolio-cards {
-		padding: 15px !important;
+		margin: 10px;
 	}
 
 	.right {
 		color: #010440;
 	}
-	
+
 	#card-div {
 		padding-bottom: 20px;
 	}
-	
+
 	#card-content {
 		font-size: 18px;
 	}
@@ -1194,12 +1428,12 @@ textarea.form-control {
 	 * Contact
 	/* ---------------------------------------------- */
 
-	#slide4{
+	#slide4 {
 		background-color: #fff;
 		color: #010440;
 		padding: 140px 0 0 0;
 	}
-	
+
 	#contact {
 		text-align: center;
 		margin-bottom: 20px;
@@ -1207,7 +1441,7 @@ textarea.form-control {
 		display: block;
 		font-size: 2em;
 		font-weight: 800;
-		font-family: 'Raleway', sans-serif;
+		font-family: "Raleway", sans-serif;
 		letter-spacing: 5px;
 	}
 
@@ -1218,10 +1452,10 @@ textarea.form-control {
 	 * Skills
 	/* ---------------------------------------------- */
 
-	#slide5{
+	#slide5 {
 		padding: 140px 0 0 0;
 	}
-	
+
 	#tools,
 	#skills {
 		text-align: center;
@@ -1230,10 +1464,10 @@ textarea.form-control {
 		display: block;
 		font-size: 30px;
 		font-weight: 800;
-		font-family: 'Raleway', sans-serif;
+		font-family: "Raleway", sans-serif;
 		letter-spacing: 5px;
 	}
-	
+
 	#skills {
 		margin-bottom: 0;
 		margin-top: 20px;
@@ -1247,17 +1481,17 @@ textarea.form-control {
 	}
 
 	.chart {
-	    display: inline-block;
-	    height: 140px;
-	    margin: 30px 0;
-	    position: relative;
-	    text-align: center;
-	    width: 140px;
+		display: inline-block;
+		height: 140px;
+		margin: 30px 0;
+		position: relative;
+		text-align: center;
+		width: 140px;
 	}
 	.chart canvas {
-	    left: 0;
-	    position: absolute;
-	    top: 0;
+		left: 0;
+		position: absolute;
+		top: 0;
 	}
 
 	.text-center {
@@ -1266,25 +1500,25 @@ textarea.form-control {
 	}
 
 	.percent {
-	    display: inline-block;
-	    font-size: 25px;
-	    font-weight: 300;
-	    line-height: 140px;
-	    z-index: 2;
+		display: inline-block;
+		font-size: 25px;
+		font-weight: 300;
+		line-height: 140px;
+		z-index: 2;
 	}
 	.percent:after {
-	    content: "%";
-	    font-size: 50%;
-	    margin-left: 0.1em;
+		content: "%";
+		font-size: 50%;
+		margin-left: 0.1em;
 	}
 	#tools-hr,
 	#skills-hr {
-		color: #FF530D;
+		color: #ff530d;
 		width: 50px;
 		margin: 20px auto;
-		opacity: .5;
+		opacity: 0.5;
 	}
-	
+
 	/* ---------------------------------------------- /*
 	 * Footer
 	/* ---------------------------------------------- */
@@ -1292,10 +1526,10 @@ textarea.form-control {
 	#footer {
 		min-height: 100px;
 		color: #fff;
-		background: #010A26;
+		background: #010a26;
 		background-size: cover;
 	}
-	
+
 	#copyright-text {
 		display: none;
 	}
@@ -1306,16 +1540,15 @@ textarea.form-control {
 
 	#copyright {
 		text-align: left;
-		font-size: .8em;
+		font-size: 0.8em;
 		height: 30px;
 		padding: 10px 10px 10px 22px;
 	}
 
 	#picture-credit {
-		font-size: .8em;
+		font-size: 0.8em;
 		display: inline-flex;
 		align-items: center;
 		padding-left: 10px;
 	}
-
 }
