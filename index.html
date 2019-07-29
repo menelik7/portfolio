@@ -13,10 +13,9 @@
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
 		/>
-		<link
-			href="https://fonts.googleapis.com/icon?family=Material+Icons"
-			rel="stylesheet"
-		/>
+
+		<!-- Compiled and minified JavaScript -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 		<!-- Bootstrap CSS -->
 		<link
@@ -192,184 +191,386 @@
 			<!-- Portfolio page -->
 			<div id="slide3" class="row">
 				<div id="project" class="col-sm-12">
-					THE OUTCOME<i
-						id="outcome-icon1"
-						class="large material-icons"
+					THE OUTCOME
+					<hr id="chat-hr" />
+				</div>
+				<div class="col-sm-12" id="business-icon-div">
+					<i id="outcome-icon1" class="large material-icons"
 						>business_center</i
 					>
 				</div>
-				<hr id="project-hr" />
-				<!-- portfolio1 -->
-				<div class="col-md-4" id="card-div">
-					<div class="card">
-						<div
-							class="card-image waves-effect waves-block waves-light"
-						>
-							<img
-								class="activator"
-								src="assets/img/newsstop.jpg"
-							/>
-						</div>
-						<div class="card-content">
-							<span class="card-title activator">
-								NewsStop<i
-									id="reveal"
-									class="material-icons right"
-									>more_vert</i
-								></span
-							>
-							<p>
-								Headlines from 42 outlets and 54 countries.
-								<a
-									href="https://newsstop.herokuapp.com/"
-									target="_blank"
-									><i id="explore" class="material-icons left"
-										>explore</i
-									></a
+				<div class="col-sm-12">
+					<div class="row">
+						<!-- portfolio1 -->
+						<div class="col-md-4" id="card-div">
+							<div class="card">
+								<div
+									class="card-image waves-effect waves-block waves-light"
 								>
-							</p>
+									<img
+										class="activator"
+										src="assets/img/newsstop.jpg"
+									/>
+								</div>
+								<div class="card-content">
+									<span class="card-title activator">
+										NewsStop<i
+											id="reveal"
+											class="material-icons right"
+											>more_vert</i
+										></span
+									>
+									<p>
+										Headlines from 42 outlets and 54
+										countries.
+									</p>
+									<a
+										href="https://newsstop.herokuapp.com/"
+										target="_blank"
+										><i
+											id="explore"
+											class="material-icons left"
+											>explore</i
+										></a
+									>
+								</div>
+								<div class="card-reveal">
+									<span class="card-title"
+										>NewsStop<i class="material-icons right"
+											>close</i
+										></span
+									>
+									<ul>
+										<li>
+											This useful app was created as a
+											follow up to my completion of the
+											Modern React with Redux course on
+											Udemy. It is a quite comprehensive
+											news source with multiple news
+											outlets as well as countries to
+											choose to get your news from. It
+											utilizes local storage for
+											persistent state to avoid loss of
+											state during page reload or even
+											offline circumstances. It also
+											allows the user to search for a
+											particular article and get the
+											latest headlines regarding their
+											search terms.
+										</li>
+										<li>
+											Technologies used: React, Redux,
+											React-Redux, Redux-Form, lodash,
+											Bootstrap 4, CSS 3, JavaScript,
+											Cloudinary. The source code is
+											pushed to a GitHub repository, and
+											the app is deployed on Heroku.
+										</li>
+									</ul>
+								</div>
+							</div>
 						</div>
-						<div class="card-reveal">
-							<span class="card-title"
-								>NewsStop<i class="material-icons right"
-									>close</i
-								></span
-							>
-							<ul>
-								<li>
-									This useful app was created as a follow up
-									to my completion of the Modern React with
-									Redux course on Udemy. It is a quite
-									comprehensive news source with multiple news
-									outlets as well as countries to choose to
-									get your news from. It utilizes local
-									storage for persistent state to avoid loss
-									of state during page reload or even offline
-									circumstances. It also allows the user to
-									search for a particular article and get the
-									latest headlines regarding their search
-									terms.
-								</li>
-								<li>
-									Technologies used: React, Redux,
-									React-Redux, Redux-Form, lodash, Bootstrap
-									4, CSS 3, JavaScript, Cloudinary. The source
-									code is pushed to a GitHub repository, and
-									the app is deployed on Heroku.
-								</li>
-							</ul>
+
+						<div class="col-md-4" id="card-div">
+							<div class="card">
+								<div
+									class="card-image waves-effect waves-block waves-light"
+								>
+									<img
+										class="activator"
+										src="assets/img/newsfix.jpg"
+									/>
+								</div>
+								<div class="card-content">
+									<span class="card-title activator">
+										Newsfix<i
+											id="reveal"
+											class="material-icons right"
+											>more_vert</i
+										></span
+									>
+									<p>
+										News video app sourced from Youtube
+										API...
+									</p>
+									<a
+										href="https://newsfix.herokuapp.com/"
+										target="_blank"
+										><i
+											id="explore"
+											class="material-icons left"
+											>explore</i
+										></a
+									>
+								</div>
+								<div class="card-reveal">
+									<span class="card-title"
+										>Newsfix<i class="material-icons right"
+											>close</i
+										></span
+									>
+									<ul>
+										<li>
+											This app pulls the latest 10 videos
+											from YouTube posted by the network
+											of your choosing.
+										</li>
+										<li>
+											Technologies used: React, Bootstrap
+											4, CSS 3, JavaScript, Semantic UI.
+											The source code is pushed to a
+											GitHub repository, and the app is
+											deployed on Heroku.
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-4" id="card-div">
+							<div class="card">
+								<div
+									class="card-image waves-effect waves-block waves-light"
+								>
+									<img
+										class="activator"
+										src="assets/img/mazorya.jpg"
+									/>
+								</div>
+								<div class="card-content">
+									<span class="card-title activator">
+										Mazorya<i
+											id="reveal"
+											class="material-icons right"
+											>more_vert</i
+										></span
+									>
+									<p>
+										Ethiopian business directory.
+									</p>
+									<a
+										href="https://mazorya.herokuapp.com/"
+										target="_blank"
+										><i
+											id="explore"
+											class="material-icons left"
+											>explore</i
+										></a
+									>
+								</div>
+								<div class="card-reveal">
+									<span class="card-title"
+										>Mazorya<i class="material-icons right"
+											>close</i
+										></span
+									>
+									<ul>
+										<li>
+											This Full Stack website is created
+											with the vision of helping
+											Ethiopians that are migrating to a
+											foreign country get accustomed to
+											their new environment. It will
+											feature businesses as well as
+											communities from their native
+											countries. Testing is performed at
+											every level of development as this
+											is an extensive project that
+											requires a detailed approach to
+											performance. User Interface is also
+											given great care, along with optimum
+											data storage practices.
+										</li>
+										<li>
+											Technologies used: HTML5, Handlebars
+											(hbs), Bootstrap 4, CSS 3,
+											JavaScript, jQuery, Node, Express,
+											MongoDB, Mongoose, Sendgrid,
+											Passport, Coudinary.
+										</li>
+									</ul>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 
-				<div class="col-md-4" id="card-div">
-					<div class="card">
-						<div
-							class="card-image waves-effect waves-block waves-light"
-						>
-							<img
-								class="activator"
-								src="assets/img/newsfix.jpg"
-							/>
-						</div>
-						<div class="card-content">
-							<span class="card-title activator">
-								Newsfix<i
-									id="reveal"
-									class="material-icons right"
-									>more_vert</i
-								></span
-							>
-							<p>
-								News video app sourced from Youtube API...
-								<a
-									href="https://newsfix.herokuapp.com/"
-									target="_blank"
-									><i id="explore" class="material-icons left"
-										>explore</i
-									></a
+				<div class="col-sm-12">
+					<div class="row">
+						<div class="col-md-4" id="card-div">
+							<div class="card">
+								<div
+									class="card-image waves-effect waves-block waves-light"
 								>
-							</p>
+									<img
+										class="activator"
+										src="assets/img/bellawaxingsalon.jpg"
+									/>
+								</div>
+								<div class="card-content">
+									<span class="card-title activator">
+										Bella Waxing Salon<i
+											id="reveal"
+											class="material-icons right"
+											>more_vert</i
+										></span
+									>
+									<p>
+										Waxing Salon.
+									</p>
+									<a
+										href="https://bellawaxingsalon.com/"
+										target="_blank"
+										><i
+											id="explore"
+											class="material-icons left"
+											>explore</i
+										></a
+									>
+								</div>
+								<div class="card-reveal">
+									<span class="card-title"
+										>Bella Waxing Salon<i
+											class="material-icons right"
+											>close</i
+										></span
+									>
+									<ul>
+										<li>
+											This website was my first paid
+											project that I built in March of
+											2018 just a few months after
+											completing the Ga Tech Full Stack
+											Flex Web Development program. It
+											contains information pertinent
+											information about the business,
+											gives the user the ability to submit
+											questions or feedbacks, and also
+											provides the option to book an
+											appointment online.
+										</li>
+										<li>
+											Technologies used: HTML5, Bootstrap
+											4.0, CSS3, Materialize, JavaScript,
+											and Google Maps.
+										</li>
+									</ul>
+								</div>
+							</div>
 						</div>
-						<div class="card-reveal">
-							<span class="card-title"
-								>Newsfix<i class="material-icons right"
-									>close</i
-								></span
-							>
-							<ul>
-								<li>
-									This app pulls the latest 10 videos from
-									YouTube posted by the network of your
-									choosing.
-								</li>
-								<li>
-									Technologies used: React, Bootstrap 4, CSS
-									3, JavaScript, Semantic UI. The source code
-									is pushed to a GitHub repository, and the
-									app is deployed on Heroku.
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
 
-				<div class="col-md-4" id="card-div">
-					<div class="card">
-						<div
-							class="card-image waves-effect waves-block waves-light"
-						>
-							<img
-								class="activator"
-								src="assets/img/mazorya.jpg"
-							/>
-						</div>
-						<div class="card-content">
-							<span class="card-title activator">
-								Mazorya<i
-									id="reveal"
-									class="material-icons right"
-									>more_vert</i
-								></span
-							>
-							<p>
-								Ethiopian business directory.
-								<a
-									href="https://mazorya.herokuapp.com/"
-									target="_blank"
-									><i id="explore" class="material-icons left"
-										>explore</i
-									></a
+						<div class="col-md-4" id="card-div">
+							<div class="card">
+								<div
+									class="card-image waves-effect waves-block waves-light"
 								>
-							</p>
+									<img
+										class="activator"
+										src="assets/img/mahihairsalon.jpg"
+									/>
+								</div>
+								<div class="card-content">
+									<span class="card-title activator">
+										Mahi Hair Salon<i
+											id="reveal"
+											class="material-icons right"
+											>more_vert</i
+										></span
+									>
+									<p>
+										Hair Salon.
+									</p>
+									<a
+										href="https://mahihair.com/"
+										target="_blank"
+										><i
+											id="explore"
+											class="material-icons left"
+											>explore</i
+										></a
+									>
+								</div>
+								<div class="card-reveal">
+									<span class="card-title"
+										>Mahi Hair Salon<i
+											class="material-icons right"
+											>close</i
+										></span
+									>
+									<ul>
+										<li>
+											This static website was created
+											using a template since the owner was
+											on a tight budget and did not have
+											the money to finance a custom
+											website. The final product is
+											considerably different from the
+											original template because of my
+											inability to settle for something
+											generic.
+										</li>
+										<li>
+											Technologies used: HTML5, CSS3,
+											Bootstrap 4.0, JavaScript.
+										</li>
+									</ul>
+								</div>
+							</div>
 						</div>
-						<div class="card-reveal">
-							<span class="card-title"
-								>Mazorya<i class="material-icons right"
-									>close</i
-								></span
-							>
-							<ul>
-								<li>
-									This Full Stack website is created with the
-									vision of helping Ethiopians that are
-									migrating to a foreign country get
-									accustomed to their new environment. It will
-									feature businesses as well as communities
-									from their native countries. Testing is
-									performed at every level of development as
-									this is an extensive project that requires a
-									detailed approach to performance. User
-									Interface is also given great care, along
-									with optimum data storage practices.
-								</li>
-								<li>
-									Technologies used: HTML5, Handlebars (hbs),
-									Bootstrap 4, CSS 3, JavaScript, jQuery,
-									Node, Express, MongoDB, Mongoose, Sendgrid,
-									Passport, Coudinary.
-								</li>
-							</ul>
+
+						<div class="col-md-4" id="card-div">
+							<div class="card">
+								<div
+									class="card-image waves-effect waves-block waves-light"
+								>
+									<img
+										class="activator"
+										src="assets/img/naslimousine.jpg"
+									/>
+								</div>
+								<div class="card-content">
+									<span class="card-title activator">
+										Nas Limousine<i
+											id="reveal"
+											class="material-icons right"
+											>more_vert</i
+										></span
+									>
+									<p>
+										Limousine Service.
+									</p>
+									<a
+										href="https://naslimousine.com/"
+										target="_blank"
+										><i
+											id="explore"
+											class="material-icons left"
+											>explore</i
+										></a
+									>
+								</div>
+								<div class="card-reveal">
+									<span class="card-title"
+										>Nas Limousine<i
+											class="material-icons right"
+											>close</i
+										></span
+									>
+									<ul>
+										<li>
+											This website was also created using
+											a template, but the final product
+											looks completely different from the
+											original template. It allows users
+											book a trip and submit feedback.
+										</li>
+										<li>
+											Technologies used: HTML5, CSS3,
+											Bootstrap 4.0, JavaScript.
+										</li>
+									</ul>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -382,8 +583,8 @@
 			<div id="slide4" class="row">
 				<div id="contact" class="animated fadeInUp col-xs-12">
 					LET'S CHAT
+					<hr id="chat-hr" />
 				</div>
-				<hr id="chat-hr" />
 				<div class="col-xs-12">
 					<div id="chat-row" class="row">
 						<div id="chat-box" class="col-xs-12 col-md-5">

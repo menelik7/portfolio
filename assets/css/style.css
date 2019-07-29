@@ -22,6 +22,10 @@ p {
 	text-align: center;
 }
 
+.row {
+	margin-bottom: 0;
+}
+
 /* ---------------------------------------------- /*
  * Header
 /* ---------------------------------------------- */
@@ -289,7 +293,14 @@ li {
 
 #slide3 {
 	color: #010440;
-	padding: 80px 0;
+	padding: 80px 0 20px 0;
+}
+
+#business-icon-div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
 }
 
 #project {
@@ -309,10 +320,7 @@ li {
 }
 
 #outcome-icon1 {
-	vertical-align: middle;
 	font-size: 60px;
-	margin-left: 20px;
-	margin-top: -10px;
 	color: #ff530d;
 }
 
@@ -321,13 +329,17 @@ li {
 	margin-bottom: 40px;
 }
 
+#card-div {
+	margin-bottom: 30px;
+}
+
 .card {
-	margin: 40px auto;
+	margin-top: 0 !important;
 }
 
 .card-content {
 	background: #263d62;
-	padding-bottom: 30px !important;
+	padding-bottom: 50px !important;
 }
 
 .card-content i,
@@ -336,7 +348,7 @@ li {
 }
 
 .card-content p {
-	padding: 0 20px 20px 0;
+	padding: 0;
 	text-align: left;
 }
 
@@ -356,6 +368,10 @@ li {
 
 .card-reveal ul li {
 	padding: 0;
+}
+
+#reveal {
+	font-size: 20px;
 }
 
 /* ---------------------------------------------- /*
@@ -385,7 +401,6 @@ li {
 
 #contact {
 	text-align: center;
-	margin: 20px 0;
 	display: block;
 	font-size: 30px;
 	font-weight: 800;
@@ -399,7 +414,7 @@ li {
 
 #chat-hr {
 	width: 100px;
-	margin-bottom: 20px;
+	margin: 20px auto;
 }
 
 #chat-row {
@@ -534,6 +549,7 @@ textarea.form-control {
 	background: #010a26;
 	background-size: cover;
 	padding-bottom: 10px;
+	margin-bottom: 0;
 }
 
 #social {
@@ -734,7 +750,7 @@ textarea.form-control {
 
 	#slide3 {
 		color: #010440;
-		padding: 80px 0;
+		padding: 80px 0 20px 0;
 		background-size: cover;
 	}
 
@@ -762,7 +778,6 @@ textarea.form-control {
 	#contact {
 		text-align: center;
 		margin-top: 20px;
-		margin-bottom: 20px;
 		display: block;
 		font-size: 30px;
 		font-weight: 800;
@@ -1030,7 +1045,7 @@ textarea.form-control {
 	#slide3 {
 		background-color: #fff;
 		color: #010440;
-		padding: 120px 0 100px 0;
+		padding: 120px 0 20px 0;
 		background-size: cover;
 	}
 
@@ -1042,10 +1057,7 @@ textarea.form-control {
 	}
 
 	#outcome-icon1 {
-		vertical-align: middle;
 		font-size: 60px;
-		margin-left: 20px;
-		margin-top: -10px;
 		color: #ff530d;
 	}
 
@@ -1388,16 +1400,6 @@ textarea.form-control {
 		margin-bottom: 20px;
 	}
 
-	#outcome-icon1 {
-		display: none;
-	}
-
-	#outcome-icon2 {
-		display: inherit;
-		text-align: center;
-		margin-bottom: 50px;
-	}
-
 	#project-hr {
 		margin-bottom: 30px;
 	}
@@ -1417,10 +1419,6 @@ textarea.form-control {
 		color: #010440;
 	}
 
-	#card-div {
-		padding-bottom: 20px;
-	}
-
 	#card-content {
 		font-size: 18px;
 	}
@@ -1436,7 +1434,6 @@ textarea.form-control {
 
 	#contact {
 		text-align: center;
-		margin-bottom: 20px;
 		margin-top: 0;
 		display: block;
 		font-size: 2em;
